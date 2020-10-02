@@ -1,0 +1,134 @@
+[
+  {
+    "symbol": "22",
+    "id": "b_21",
+    "text": "11",
+    "state": "closed",
+    "isDisabled": 0,
+    "nodeType": "tbom",
+    "iconCls": "tree-icon-tbom",
+    "parentId": "b_null",
+    "bomVersion": "A1"
+  },
+  {
+    "symbol": "12",
+    "id": "b_54",
+    "text": "12",
+    "state": "closed",
+    "isDisabled": 0,
+    "nodeType": "tbom",
+    "iconCls": "tree-icon-tbom",
+    "parentId": "b_null",
+    "bomVersion": "A3"
+  },
+  {
+    "symbol": "HQ10的代号",
+    "id": "b_1",
+    "text": "HQ-10",
+    "state": "closed",
+    "isDisabled": 0,
+    "nodeType": "tbom",
+    "iconCls": "tree-icon-tbom",
+    "parentId": "b_null",
+    "bomVersion": "/"
+  },
+  {
+    "symbol": "",
+    "id": "b_38",
+    "text": "JB-9(03)",
+    "state": "closed",
+    "isDisabled": 0,
+    "nodeType": "tbom",
+    "iconCls": "tree-icon-tbom",
+    "parentId": "b_null",
+    "bomVersion": "/"
+  },
+  {
+    "symbol": "",
+    "id": "b_44",
+    "text": "JB-9aaaa",
+    "state": "open",
+    "isDisabled": 0,
+    "nodeType": "tbom",
+    "iconCls": "tree-icon-tbom",
+    "parentId": "b_null",
+    "bomVersion": "/"
+  },
+  {
+    "symbol": "V3的代号",
+    "id": "b_2",
+    "text": "V3",
+    "state": "closed",
+    "isDisabled": 0,
+    "nodeType": "tbom",
+    "iconCls": "tree-icon-tbom",
+    "parentId": "b_null",
+    "bomVersion": "/"
+  },
+  {
+    "symbol": "V6",
+    "id": "b_30",
+    "text": "V6",
+    "state": "closed",
+    "isDisabled": 0,
+    "nodeType": "tbom",
+    "iconCls": "tree-icon-tbom",
+    "parentId": "b_null",
+    "bomVersion": "/"
+  },
+  {
+    "symbol": "dz_1",
+    "id": "b_34",
+    "text": "测试电装产品",
+    "state": "closed",
+    "isDisabled": 0,
+    "nodeType": "tbom",
+    "iconCls": "tree-icon-tbom",
+    "parentId": "b_null",
+    "bomVersion": "/"
+  },
+  {
+    "symbol": "gdd_1",
+    "id": "b_35",
+    "text": "测试惯导产品",
+    "state": "closed",
+    "isDisabled": 0,
+    "nodeType": "tbom",
+    "iconCls": "tree-icon-tbom",
+    "parentId": "b_null",
+    "bomVersion": "/"
+  },
+  {
+    "symbol": "345",
+    "id": "b_33",
+    "text": "测试光电产品",
+    "state": "closed",
+    "isDisabled": 0,
+    "nodeType": "tbom",
+    "iconCls": "tree-icon-tbom",
+    "parentId": "b_null",
+    "bomVersion": "/"
+  },
+  {
+    "symbol": "001",
+    "id": "b_43",
+    "text": "产品101",
+    "state": "closed",
+    "isDisabled": 0,
+    "nodeType": "tbom",
+    "iconCls": "tree-icon-tbom",
+    "parentId": "b_null",
+    "bomVersion": "/"
+  },
+  {
+    "symbol": "daoyintou",
+    "id": "b_37",
+    "text": "导引头",
+    "state": "closed",
+    "isDisabled": 0,
+    "nodeType": "tbom",
+    "iconCls": "tree-icon-tbom",
+    "parentId": "b_null",
+    "bomVersion": "/"
+  }
+]

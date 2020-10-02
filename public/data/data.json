@@ -1,0 +1,79 @@
+{
+    "success": true,
+    
+    "resources": {
+        "rows": [{
+                "id": "r1",
+                "name": "水",
+                "role": "h2o",
+                "type": "h2o"
+            },
+            {
+                "id": "r2",
+                "name": "氧气",
+                "role": "o2",
+                "type": "o2"
+            },
+            {
+                "id": "r3",
+                "name": "氢气",
+                "role": "h2",
+                "type": "h2"
+            }
+        ]
+    },
+    "events": {
+        "rows": [{
+                "id": 1,
+                "startDate": "2020-04-27",
+                "duration": 4,
+                "name": "用水",
+                "iconCls": "b-fa b-fa-calendar"
+            },
+            {
+                "id": 2,
+                "startDate": "2020-04-28",
+                "endDate": "2020-04-30",
+                "name": "用氧气",
+                "iconCls": "b-fa b-fa-pen",
+                "eventColor": "indigo"
+            },
+            {
+                "id": 3,
+                "startDate": "2020-04-28",
+                "endDate": "2020-04-30",
+                "name": "用氢气",
+                "iconCls": "b-fa b-fa-pen",
+                "eventColor": "red"
+            }
+        ]
+    },
+    "assignments": {
+        "rows": [{
+                "id": 1,
+                "resource": "r1",
+                "event": 1
+            },
+            {
+                "id": 2,
+                "resource": "r2",
+                "event": 1
+            },
+            {
+                "id": 3,
+                "resource": "r3",
+                "event": 2
+            },
+            {
+                "id": 4,
+                "resource": "r2",
+                "event": 2
+            },
+            {
+                "id": 5,
+                "resource": "r2",
+                "event": 3
+            }
+        ]
+    }
+}

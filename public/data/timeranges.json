@@ -1,0 +1,27 @@
+{
+    "success" : true,
+    "tasks" : {
+        "rows" : [
+            {
+                "id": 2,
+                "name": "事件2",
+                "percentDone": 60,
+                "expanded": true,
+                "startDate": "2019-01-01",
+                "duration": 22,
+                "manuallyScheduled" : true,
+                "children":[]
+            },
+            {
+                "id": 3,
+                "name": "事件3",
+                "duration": 5,
+                "percentDone": 20,
+                "expanded": true,
+                "startDate": "2019-01-07",
+                "manuallyScheduled" : true,
+                "children":[]
+            }
+        ]
+    }
+}

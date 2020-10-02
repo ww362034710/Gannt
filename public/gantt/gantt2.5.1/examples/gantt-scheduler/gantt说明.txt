@@ -1,0 +1,3 @@
+Gnt.data.CalendarManager 是一个 store  对应的model是Gnt.model.Calendar
+Gnt.data.Calendar 是一个 store对应的model是Gnt.model.CalendarDay
+Gnt.model.Calendar: Days 一对多个 Gnt.model.CalendarDay

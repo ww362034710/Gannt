@@ -1,0 +1,2463 @@
+{
+  "assignments": {
+    "rows": [
+      {
+        "Id": 1574651727357,
+        "ResourceId": 2,
+        "TaskId": 10021,
+        "Units": 2
+      },
+      {
+        "Id": 1574651727357,
+        "ResourceId": 5,
+        "TaskId": 10021,
+        "Units": 2
+      },
+      {
+        "Id": 1574651727357,
+        "ResourceId": 10,
+        "TaskId": 10021,
+        "Units": 2
+      },
+      {
+        "Id": 1574651727357,
+        "ResourceId": 15,
+        "TaskId": 10021,
+        "Units": 2
+      },
+      {
+        "Id": 1574651727357,
+        "ResourceId": 20,
+        "TaskId": 10021,
+        "Units": 2
+      },
+      {
+        "Id": 1574651727357,
+        "ResourceId": 3,
+        "TaskId": 10022,
+        "Units": 1
+      },
+      {
+        "Id": 1574651727357,
+        "ResourceId": 5,
+        "TaskId": 10022,
+        "Units": 1
+      },
+      {
+        "Id": 1574651727357,
+        "ResourceId": 10,
+        "TaskId": 10022,
+        "Units": 1
+      },
+      {
+        "Id": 1574651727357,
+        "ResourceId": 15,
+        "TaskId": 10022,
+        "Units": 1
+      },
+      {
+        "Id": 1574651727357,
+        "ResourceId": 20,
+        "TaskId": 10022,
+        "Units": 1
+      },
+      {
+        "Id": 1574651727357,
+        "ResourceId": 8,
+        "TaskId": 10023,
+        "Units": 1
+      },
+      {
+        "Id": 1574651727365,
+        "ResourceId": 9,
+        "TaskId": 10024
+      },
+      {
+        "Id": 1574651727365,
+        "ResourceId": 5,
+        "TaskId": 10024,
+        "Units": 1
+      },
+      {
+        "Id": 1574651727365,
+        "ResourceId": 5,
+        "TaskId": 10025,
+        "Units": 1
+      },
+      {
+        "Id": 1574651727365,
+        "ResourceId": 12,
+        "TaskId": 10011
+      },
+      {
+        "Id": 1574651727365,
+        "ResourceId": 5,
+        "TaskId": 10011,
+        "Units": 2
+      },
+      {
+        "Id": 1574651727365,
+        "ResourceId": 10,
+        "TaskId": 10011,
+        "Units": 2
+      },
+      {
+        "Id": 1574651727365,
+        "ResourceId": 15,
+        "TaskId": 10011,
+        "Units": 2
+      },
+      {
+        "Id": 1574651727365,
+        "ResourceId": 20,
+        "TaskId": 10011,
+        "Units": 2
+      },
+      {
+        "Id": 1574651727365,
+        "ResourceId": 3,
+        "TaskId": 10012,
+        "Units": 1
+      },
+      {
+        "Id": 1574651727365,
+        "ResourceId": 5,
+        "TaskId": 10012,
+        "Units": 1
+      },
+      {
+        "Id": 1574651727365,
+        "ResourceId": 10,
+        "TaskId": 10012,
+        "Units": 1
+      },
+      {
+        "Id": 1574651727365,
+        "ResourceId": 15,
+        "TaskId": 10012,
+        "Units": 1
+      },
+      {
+        "Id": 1574651727365,
+        "ResourceId": 20,
+        "TaskId": 10012,
+        "Units": 1
+      },
+      {
+        "Id": 1574651727367,
+        "ResourceId": 4,
+        "TaskId": 10013,
+        "Units": 2
+      },
+      {
+        "Id": 1574651727367,
+        "ResourceId": 5,
+        "TaskId": 10013,
+        "Units": 2
+      },
+      {
+        "Id": 1574651727367,
+        "ResourceId": 10,
+        "TaskId": 10013,
+        "Units": 2
+      },
+      {
+        "Id": 1574651727367,
+        "ResourceId": 15,
+        "TaskId": 10013,
+        "Units": 2
+      },
+      {
+        "Id": 1574651727367,
+        "ResourceId": 20,
+        "TaskId": 10013,
+        "Units": 2
+      },
+      {
+        "Id": 1574651727367,
+        "ResourceId": 5,
+        "TaskId": 10014,
+        "Units": 1
+      },
+      {
+        "Id": 1574651727367,
+        "ResourceId": 10,
+        "TaskId": 10014,
+        "Units": 1
+      },
+      {
+        "Id": 1574651727367,
+        "ResourceId": 15,
+        "TaskId": 10014,
+        "Units": 1
+      },
+      {
+        "Id": 1574651727367,
+        "ResourceId": 20,
+        "TaskId": 10014,
+        "Units": 1
+      },
+      {
+        "Id": 1574651727367,
+        "ResourceId": 5,
+        "TaskId": 10015,
+        "Units": 2
+      },
+      {
+        "Id": 1574651727367,
+        "ResourceId": 6,
+        "TaskId": 10015,
+        "Units": 2
+      },
+      {
+        "Id": 1574651727367,
+        "ResourceId": 10,
+        "TaskId": 10015,
+        "Units": 2
+      },
+      {
+        "Id": 1574651727367,
+        "ResourceId": 15,
+        "TaskId": 10015,
+        "Units": 2
+      },
+      {
+        "Id": 1574651727367,
+        "ResourceId": 20,
+        "TaskId": 10015,
+        "Units": 2
+      }
+    ]
+  },
+  "calendars": {
+    "metaData": {
+      "projectCalendar": "default"
+    },
+    "rows": [
+      {
+        "Days": {
+          "rows": [
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+               [ 0]
+              ],
+              "Date": "2019-11-11 00:00",
+              "Id": 100
+            }
+          ]
+        },
+        "DaysPerMonth": 30,
+        "DaysPerWeek": 7,
+        "DefaultAvailability": [
+          "00:00-24:00"
+        ],
+        "defaultAvailableAllocation": [
+          [0]
+        ],
+        "Id": "1",
+        "Name": "实验材料一",
+        "weekendFirstDay": 6,
+        "weekendsAreWorkDays": true
+      },
+      {
+        "Days": {
+          "rows": [
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-12 00:00",
+              "Id": 200
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [4]
+              ],
+              "Date": "2019-11-11 00:00",
+              "Id": 201
+            }
+          ]
+        },
+        "DaysPerMonth": 30,
+        "DaysPerWeek": 7,
+        "DefaultAvailability": [
+          "00:00-24:00"
+        ],
+        "defaultAvailableAllocation": [
+         [ 0]
+        ],
+        "Id": "2",
+        "Name": "实验材料一",
+        "weekendFirstDay": 6,
+        "weekendsAreWorkDays": true
+      },
+      {
+        "Days": {
+          "rows": [
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                2
+              ],
+              "Date": "2019-11-14 00:00",
+              "Id": 300
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                2
+              ],
+              "Date": "2019-11-13 00:00",
+              "Id": 301
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                2
+              ],
+              "Date": "2019-11-12 00:00",
+              "Id": 302
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                2
+              ],
+              "Date": "2019-11-11 00:00",
+              "Id": 303
+            }
+          ]
+        },
+        "DaysPerMonth": 30,
+        "DaysPerWeek": 7,
+        "DefaultAvailability": [
+          "00:00-24:00"
+        ],
+        "defaultAvailableAllocation": [
+          0
+        ],
+        "Id": "3",
+        "weekendFirstDay": 6,
+        "weekendsAreWorkDays": true
+      },
+      {
+        "Days": {
+          "rows": [
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-17 00:00",
+              "Id": 400
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-16 00:00",
+              "Id": 401
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-15 00:00",
+              "Id": 402
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-14 00:00",
+              "Id": 403
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-13 00:00",
+              "Id": 404
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-12 00:00",
+              "Id": 405
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-11 00:00",
+              "Id": 406
+            }
+          ]
+        },
+        "DaysPerMonth": 30,
+        "DaysPerWeek": 7,
+        "DefaultAvailability": [
+          "00:00-24:00"
+        ],
+        "defaultAvailableAllocation": [
+          0
+        ],
+        "Id": "4",
+        "weekendFirstDay": 6,
+        "weekendsAreWorkDays": true
+      },
+      {
+        "Days": {
+          "rows": [
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-26 00:00",
+              "Id": 500
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-25 00:00",
+              "Id": 501
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-24 00:00",
+              "Id": 502
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-23 00:00",
+              "Id": 503
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-22 00:00",
+              "Id": 504
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-21 00:00",
+              "Id": 505
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-20 00:00",
+              "Id": 506
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-19 00:00",
+              "Id": 507
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-18 00:00",
+              "Id": 508
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-17 00:00",
+              "Id": 509
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-16 00:00",
+              "Id": 510
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-15 00:00",
+              "Id": 511
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-14 00:00",
+              "Id": 512
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-13 00:00",
+              "Id": 513
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-12 00:00",
+              "Id": 514
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-11 00:00",
+              "Id": 515
+            }
+          ]
+        },
+        "DaysPerMonth": 30,
+        "DaysPerWeek": 7,
+        "DefaultAvailability": [
+          "00:00-24:00"
+        ],
+        "defaultAvailableAllocation": [
+          0
+        ],
+        "Id": "5",
+        "Name": "航天员",
+        "WeekendFirstDay": 6,
+        "WeekendsAreWorkDays": true
+      },
+      {
+        "Days": {
+          "rows": [
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-26 00:00",
+              "Id": 600
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-25 00:00",
+              "Id": 601
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-24 00:00",
+              "Id": 602
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-23 00:00",
+              "Id": 603
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-22 00:00",
+              "Id": 604
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-21 00:00",
+              "Id": 605
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-20 00:00",
+              "Id": 606
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-19 00:00",
+              "Id": 607
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-18 00:00",
+              "Id": 608
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-17 00:00",
+              "Id": 609
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-16 00:00",
+              "Id": 610
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-15 00:00",
+              "Id": 611
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-14 00:00",
+              "Id": 612
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-13 00:00",
+              "Id": 613
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-12 00:00",
+              "Id": 614
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-11 00:00",
+              "Id": 615
+            }
+          ]
+        },
+        "DaysPerMonth": 30,
+        "DaysPerWeek": 7,
+        "DefaultAvailability": [
+          "00:00-24:00"
+        ],
+        "defaultAvailableAllocation": [
+          0
+        ],
+        "Id": "6",
+        "weekendFirstDay": 6,
+        "weekendsAreWorkDays": true
+      },
+      {
+        "Days": {
+          "rows": [
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                1
+              ],
+              "Date": "2019-11-11 00:00",
+              "Id": 700
+            }
+          ]
+        },
+        "DaysPerMonth": 30,
+        "DaysPerWeek": 7,
+        "DefaultAvailability": [
+          "00:00-24:00"
+        ],
+        "defaultAvailableAllocation": [
+          0
+        ],
+        "Id": "7",
+        "weekendFirstDay": 6,
+        "weekendsAreWorkDays": true
+      },
+      {
+        "Days": {
+          "rows": [
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                1
+              ],
+              "Date": "2019-11-26 00:00",
+              "Id": 800
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                1
+              ],
+              "Date": "2019-11-25 00:00",
+              "Id": 801
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                1
+              ],
+              "Date": "2019-11-24 00:00",
+              "Id": 802
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                1
+              ],
+              "Date": "2019-11-23 00:00",
+              "Id": 803
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                1
+              ],
+              "Date": "2019-11-22 00:00",
+              "Id": 804
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                1
+              ],
+              "Date": "2019-11-21 00:00",
+              "Id": 805
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                1
+              ],
+              "Date": "2019-11-20 00:00",
+              "Id": 806
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                1
+              ],
+              "Date": "2019-11-19 00:00",
+              "Id": 807
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                1
+              ],
+              "Date": "2019-11-18 00:00",
+              "Id": 808
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                1
+              ],
+              "Date": "2019-11-17 00:00",
+              "Id": 809
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                1
+              ],
+              "Date": "2019-11-16 00:00",
+              "Id": 810
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                1
+              ],
+              "Date": "2019-11-15 00:00",
+              "Id": 811
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                1
+              ],
+              "Date": "2019-11-14 00:00",
+              "Id": 812
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                1
+              ],
+              "Date": "2019-11-13 00:00",
+              "Id": 813
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                1
+              ],
+              "Date": "2019-11-12 00:00",
+              "Id": 814
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                1
+              ],
+              "Date": "2019-11-11 00:00",
+              "Id": 815
+            }
+          ]
+        },
+        "DaysPerMonth": 30,
+        "DaysPerWeek": 7,
+        "DefaultAvailability": [
+          "00:00-24:00"
+        ],
+        "defaultAvailableAllocation": [
+          0
+        ],
+        "Id": "8",
+        "Name": "试验用具10（切片制作）",
+        "weekendFirstDay": 6,
+        "weekendsAreWorkDays": true
+      },
+      {
+        "Days": {
+          "rows": [
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [1]
+              ],
+              "Date": "2019-11-26 00:00",
+              "Id": 900
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [1]
+              ],
+              "Date": "2019-11-25 00:00",
+              "Id": 901
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [1]
+              ],
+              "Date": "2019-11-24 00:00",
+              "Id": 902
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [1]
+              ],
+              "Date": "2019-11-23 00:00",
+              "Id": 903
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+               [ 1]
+              ],
+              "Date": "2019-11-22 00:00",
+              "Id": 904
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [1]
+              ],
+              "Date": "2019-11-21 00:00",
+              "Id": 905
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [1]
+              ],
+              "Date": "2019-11-20 00:00",
+              "Id": 906
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [1]
+              ],
+              "Date": "2019-11-19 00:00",
+              "Id": 907
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [1]
+              ],
+              "Date": "2019-11-18 00:00",
+              "Id": 908
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [1]
+              ],
+              "Date": "2019-11-17 00:00",
+              "Id": 909
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [1]
+              ],
+              "Date": "2019-11-16 00:00",
+              "Id": 910
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [1]
+              ],
+              "Date": "2019-11-15 00:00",
+              "Id": 911
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [1]
+              ],
+              "Date": "2019-11-14 00:00",
+              "Id": 912
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [1]
+              ],
+              "Date": "2019-11-13 00:00",
+              "Id": 913
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [1]
+              ],
+              "Date": "2019-11-12 00:00",
+              "Id": 914
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [1]
+              ],
+              "Date": "2019-11-11 00:00",
+              "Id": 915
+            }
+          ]
+        },
+        "DaysPerMonth": 30,
+        "DaysPerWeek": 7,
+        "DefaultAvailability": [
+          "00:00-24:00"
+        ],
+        "defaultAvailableAllocation": [
+          [0]
+        ],
+        "Id": "9",
+        "Name": "显微镜",
+        "weekendFirstDay": 6,
+        "weekendsAreWorkDays": true
+      },
+      {
+        "Days": {
+          "rows": [
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-26 00:00",
+              "Id": 1000
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-25 00:00",
+              "Id": 1001
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-24 00:00",
+              "Id": 1002
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-23 00:00",
+              "Id": 1003
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-22 00:00",
+              "Id": 1004
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-21 00:00",
+              "Id": 1005
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-20 00:00",
+              "Id": 1006
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-19 00:00",
+              "Id": 1007
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-18 00:00",
+              "Id": 1008
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-17 00:00",
+              "Id": 1009
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-16 00:00",
+              "Id": 1010
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-15 00:00",
+              "Id": 1011
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-14 00:00",
+              "Id": 1012
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-13 00:00",
+              "Id": 1013
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-12 00:00",
+              "Id": 1014
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-11 00:00",
+              "Id": 1015
+            }
+          ]
+        },
+        "DaysPerMonth": 30,
+        "DaysPerWeek": 7,
+        "DefaultAvailability": [
+          "00:00-24:00"
+        ],
+        "defaultAvailableAllocation": [
+          0
+        ],
+        "Id": "10",
+        "Name": "氧气",
+        "weekendFirstDay": 6,
+        "weekendsAreWorkDays": true
+      },
+      {
+        "Days": {
+          "rows": [
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [2]
+              ],
+              "Date": "2019-11-27 00:00",
+              "Id": 1100
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [2]
+              ],
+              "Date": "2019-11-26 00:00",
+              "Id": 1101
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [2]
+              ],
+              "Date": "2019-11-25 00:00",
+              "Id": 1102
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [2]
+              ],
+              "Date": "2019-11-24 00:00",
+              "Id": 1103
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [2]
+              ],
+              "Date": "2019-11-23 00:00",
+              "Id": 1104
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [2]
+              ],
+              "Date": "2019-11-22 00:00",
+              "Id": 1105
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [2]
+              ],
+              "Date": "2019-11-21 00:00",
+              "Id": 1106
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [2]
+              ],
+              "Date": "2019-11-20 00:00",
+              "Id": 1107
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [2]
+              ],
+              "Date": "2019-11-19 00:00",
+              "Id": 1108
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [2]
+              ],
+              "Date": "2019-11-18 00:00",
+              "Id": 1109
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [2]
+              ],
+              "Date": "2019-11-17 00:00",
+              "Id": 1110
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [2]
+              ],
+              "Date": "2019-11-16 00:00",
+              "Id": 1111
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [2]
+              ],
+              "Date": "2019-11-15 00:00",
+              "Id": 1112
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [2]
+              ],
+              "Date": "2019-11-14 00:00",
+              "Id": 1113
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [2]
+              ],
+              "Date": "2019-11-13 00:00",
+              "Id": 1114
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [2]
+              ],
+              "Date": "2019-11-12 00:00",
+              "Id": 1115
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [2]
+              ],
+              "Date": "2019-11-11 00:00",
+              "Id": 1116
+            }
+          ]
+        },
+        "DaysPerMonth": 30,
+        "DaysPerWeek": 7,
+        "DefaultAvailability": [
+          "00:00-24:00"
+        ],
+        "defaultAvailableAllocation": [
+          [0]
+        ],
+        "Id": "11",
+        "Name": "轨道资源枚举类型1",
+        "weekendFirstDay": 6,
+        "weekendsAreWorkDays": true
+      },
+      {
+        "Days": {
+          "rows": [
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                1
+              ],
+              "Date": "2019-11-11 00:00",
+              "Id": 1200
+            }
+          ]
+        },
+        "DaysPerMonth": 30,
+        "DaysPerWeek": 7,
+        "DefaultAvailability": [
+          "00:00-24:00"
+        ],
+        "defaultAvailableAllocation": [
+          0
+        ],
+        "Id": "12",
+        "weekendFirstDay": 6,
+        "weekendsAreWorkDays": true
+      },
+      {
+        "Days": {
+          "rows": [
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                1
+              ],
+              "Date": "2019-11-11 00:00",
+              "Id": 1300
+            }
+          ]
+        },
+        "DaysPerMonth": 30,
+        "DaysPerWeek": 7,
+        "DefaultAvailability": [
+          "00:00-24:00"
+        ],
+        "defaultAvailableAllocation": [
+          0
+        ],
+        "Id": "13",
+        "weekendFirstDay": 6,
+        "weekendsAreWorkDays": true
+      },
+      {
+        "Days": {
+          "rows": [
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                1
+              ],
+              "Date": "2019-11-11 00:00",
+              "Id": 1400
+            }
+          ]
+        },
+        "DaysPerMonth": 30,
+        "DaysPerWeek": 7,
+        "DefaultAvailability": [
+          "00:00-24:00"
+        ],
+        "defaultAvailableAllocation": [
+          0
+        ],
+        "Id": "14",
+        "weekendFirstDay": 6,
+        "weekendsAreWorkDays": true
+      },
+      {
+        "Days": {
+          "rows": [
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-26 00:00",
+              "Id": 1500
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-25 00:00",
+              "Id": 1501
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-24 00:00",
+              "Id": 1502
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-23 00:00",
+              "Id": 1503
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-22 00:00",
+              "Id": 1504
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-21 00:00",
+              "Id": 1505
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-20 00:00",
+              "Id": 1506
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-19 00:00",
+              "Id": 1507
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-18 00:00",
+              "Id": 1508
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-17 00:00",
+              "Id": 1509
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-16 00:00",
+              "Id": 1510
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-15 00:00",
+              "Id": 1511
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-14 00:00",
+              "Id": 1512
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-13 00:00",
+              "Id": 1513
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-12 00:00",
+              "Id": 1514
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-11 00:00",
+              "Id": 1515
+            }
+          ]
+        },
+        "DaysPerMonth": 30,
+        "DaysPerWeek": 7,
+        "DefaultAvailability": [
+          "00:00-24:00"
+        ],
+        "defaultAvailableAllocation": [
+          0
+        ],
+        "Id": "15",
+        "Name": "能源功耗",
+        "weekendFirstDay": 6,
+        "weekendsAreWorkDays": true
+      },
+      {
+        "Days": {
+          "rows": [
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                1
+              ],
+              "Date": "2019-11-11 00:00",
+              "Id": 1600
+            }
+          ]
+        },
+        "DaysPerMonth": 30,
+        "DaysPerWeek": 7,
+        "DefaultAvailability": [
+          "00:00-24:00"
+        ],
+        "defaultAvailableAllocation": [
+          0
+        ],
+        "Id": "16",
+        "weekendFirstDay": 6,
+        "weekendsAreWorkDays": true
+      },
+      {
+        "Days": {
+          "rows": [
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                1
+              ],
+              "Date": "2019-11-11 00:00",
+              "Id": 1700
+            }
+          ]
+        },
+        "DaysPerMonth": 30,
+        "DaysPerWeek": 7,
+        "DefaultAvailability": [
+          "00:00-24:00"
+        ],
+        "defaultAvailableAllocation": [
+          0
+        ],
+        "Id": "17",
+        "weekendFirstDay": 6,
+        "weekendsAreWorkDays": true
+      },
+      {
+        "Days": {
+          "rows": [
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                1
+              ],
+              "Date": "2019-11-11 00:00",
+              "Id": 1800
+            }
+          ]
+        },
+        "DaysPerMonth": 30,
+        "DaysPerWeek": 7,
+        "DefaultAvailability": [
+          "00:00-24:00"
+        ],
+        "defaultAvailableAllocation": [
+          0
+        ],
+        "Id": "18",
+        "weekendFirstDay": 6,
+        "weekendsAreWorkDays": true
+      },
+      {
+        "Days": {
+          "rows": [
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                1
+              ],
+              "Date": "2019-11-11 00:00",
+              "Id": 1900
+            }
+          ]
+        },
+        "DaysPerMonth": 30,
+        "DaysPerWeek": 7,
+        "DefaultAvailability": [
+          "00:00-24:00"
+        ],
+        "defaultAvailableAllocation": [
+          0
+        ],
+        "Id": "19",
+        "weekendFirstDay": 6,
+        "weekendsAreWorkDays": true
+      },
+      {
+        "Days": {
+          "rows": [
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-26 00:00",
+              "Id": 2000
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-25 00:00",
+              "Id": 2001
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-24 00:00",
+              "Id": 2002
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-23 00:00",
+              "Id": 2003
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-22 00:00",
+              "Id": 2004
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-21 00:00",
+              "Id": 2005
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-20 00:00",
+              "Id": 2006
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-19 00:00",
+              "Id": 2007
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-18 00:00",
+              "Id": 2008
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-17 00:00",
+              "Id": 2009
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-16 00:00",
+              "Id": 2010
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-15 00:00",
+              "Id": 2011
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-14 00:00",
+              "Id": 2012
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-13 00:00",
+              "Id": 2013
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-12 00:00",
+              "Id": 2014
+            },
+            {
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                4
+              ],
+              "Date": "2019-11-11 00:00",
+              "Id": 2015
+            }
+          ]
+        },
+        "DaysPerMonth": 30,
+        "DaysPerWeek": 7,
+        "DefaultAvailability": [
+          "00:00-24:00"
+        ],
+        "defaultAvailableAllocation": [
+          0
+        ],
+        "Id": "20",
+        "Name": "巡天号试验舱操作台",
+        "weekendFirstDay": 6,
+        "weekendsAreWorkDays": true
+      }
+    ]
+  },
+  "resources": {
+    "rows": [
+      {
+        "Id": 1,
+        "CalendarId": "1",
+        "Name": "实验材料一",
+        "resourceType": [
+          "实验材料一"
+        ],
+        "unitsValues": [
+          0,
+          2,
+          4
+        ],
+        "Type" : "machine",
+        "unitsType": "3"
+      },
+      {
+        "Id": 2,
+        "CalendarId": "2",
+        "Name": "实验材料一",
+        "resourceType": [
+          "实验材料一"
+        ],
+        "Type" : "machine",
+        "unitsType": "1"
+      },
+      {
+        "Id": 3,
+        "Name": "3",
+        "CalendarId": "3",
+        "resourceType": [
+          "id3"
+        ],
+        "Type" : "machine",
+        "unitsType": "1"
+      },
+      {
+        "Id": 4,
+        "Name": "4",
+        "CalendarId": "4",
+        "resourceType": [
+          "id4"
+
+        ],
+        "Type" : "machine",
+        "unitsType": "1"
+      },
+      {
+        "Id": 5,
+        "CalendarId": "5",
+        "Name": "航天员",
+        "resourceType": [
+          "航天员"
+        ],
+        "unitsType": "2"
+      },
+      {
+        "Id": 6,
+        "Name": "6",
+        "CalendarId": "6",
+        "resourceType": [
+          "id6"
+
+        ],
+        "Type" : "machine",
+        "unitsType": "1"
+      },
+      {
+        "Id": 7,
+        "Name": "7",
+        "CalendarId": "7",
+        "resourceType": [
+          "id7"
+
+        ],
+        "Type" : "machine",
+        "unitsType": "1"
+      },
+      {
+        "Id": 8,
+        "CalendarId": "8",
+        "Name": "试验用具10（切片制作）",
+        "resourceType": [
+          "试验用具10（切片制作）"
+        ],
+        "Type" : "machine",
+        "unitsType": "1"
+      },
+      {
+        "Id": 9,
+        "CalendarId": "9",
+        "Name": "显微镜",
+        "resourceType": [
+          "显微镜"
+        ],
+        "unitsValues": [
+          0,
+          1
+        ],
+        "Type" : "machine",
+        "unitsType": "3"
+      },
+      {
+        "Id": 10,
+        "CalendarId": "10",
+        "Name": "氧气",
+        "resourceType": [
+          "氧气"
+        ],
+        "Type" : "machine",
+        "unitsType": "2"
+      },
+      {
+        "Id": 11,
+        "CalendarId": "11",
+        "Name": "轨道资源枚举类型1",
+        "resourceType": [
+          "轨道资源枚举类型1"
+        ],
+        "unitsValues": [
+          0,
+          1,
+          2
+        ],
+        "Type" : "machine",
+        "unitsType": "3"
+      },
+      {
+        "Id": 12,
+        "Name": "12",
+        "CalendarId": "12",
+        "resourceType": [
+          "id12"
+
+        ],
+        "Type" : "machine",
+        "unitsType": "1"
+      },
+      {
+        "Id": 13,
+        "Name": "13",
+        "CalendarId": "13",
+        "resourceType": [
+          "id13"
+
+        ],
+        "Type" : "machine",
+        "unitsType": "1"
+      },
+      {
+        "Id": 14,
+        "Name": "14",
+        "CalendarId": "14",
+        "resourceType": [
+          "id14"
+
+        ],
+        "Type" : "machine",
+        "unitsType": "1"
+      },
+      {
+        "Id": 15,
+        "CalendarId": "15",
+        "Name": "能源功耗",
+        "resourceType": [
+          "能源功耗"
+        ],
+        "Type" : "machine",
+        "unitsType": "2"
+      },
+      {
+        "Id": 16,
+        "Name": "16",
+        "CalendarId": "16",
+        "resourceType": [
+          "id16"
+
+        ],
+        "Type" : "machine",
+        "unitsType": "1"
+      },
+      {
+        "Id": 17,
+        "Name": "17",
+        "CalendarId": "17",
+        "resourceType": [
+          "id17"
+
+        ],
+        "Type" : "machine",
+        "unitsType": "1"
+      },
+      {
+        "Id": 18,
+        "Name": "18",
+        "CalendarId": "18",
+        "resourceType": [
+          "id18"
+
+        ],
+        "Type" : "machine",
+        "unitsType": "1"
+      },
+      {
+        "Id": 19,
+        "Name": "19",
+        "CalendarId": "19",
+        "resourceType": [
+          "id19"
+
+        ],
+        "Type" : "machine",
+        "unitsType": "1"
+      },
+      {
+        "Id": 20,
+        "CalendarId": "20",
+        "Name": "巡天号试验舱操作台",
+        "resourceType": [
+          "巡天号试验舱操作台"
+        ],
+        "Type" : "machine",
+        "unitsType": "2"
+      }
+    ]
+  },
+  "success": true,
+  "tasks": {
+    "rows": [
+      {
+        "Id": 10020,
+        "children": [
+          {
+            "Id": 10021,
+            "children": [],
+            "duration": 1,
+            "EndDate": "2019-11-12 00:00",
+            "TaskType": "Important",
+            "expanded": true,
+            "leaf": true,
+            "Name": "实验材料准备",
+            "StartDate": "2019-11-11"
+          },
+          {
+            "Id": 10022,
+            "children": [],
+            "duration": 2,
+            "EndDate": "2019-11-13 00:00",
+            "expanded": true,
+            "TaskType": "Important",
+            "leaf": true,
+            "Name": "生物反应",
+            "StartDate": "2019-11-11"
+          },
+          {
+            "Id": 10023,
+            "children": [],
+            "duration": 3,
+            "EndDate": "2019-11-14 00:00",
+            "expanded": true,
+            "TaskType": "Important",
+            "leaf": true,
+            "Name": "切片制作观测样本",
+            "StartDate": "2019-11-11"
+          },
+          {
+            "Id": 10024,
+            "children": [],
+            "duration": 4,
+            "EndDate": "2019-11-15 00:00",
+            "expanded": true,
+            "TaskType": "Important",
+            "leaf": true,
+            "Name": "显微镜观测，绘图",
+            "StartDate": "2019-11-11"
+          },
+          {
+            "Id": 10025,
+            "children": [],
+            "duration": 5,
+            "EndDate": "2019-11-16 00:00",
+            "expanded": true,
+            "TaskType": "Important",
+            "leaf": true,
+            "Name": "实验废物处理",
+            "StartDate": "2019-11-11"
+          }
+        ],
+        "duration": 0,
+        "EndDate": "2019-11-11 00:00",
+        "expanded": true,
+        "TaskType": "Important",
+        "leaf": false,
+        "Name": "xx生物化学实验任务规划",
+        "StartDate": "2019-11-11"
+      },
+      {
+        "Id": 10010,
+        "children": [
+          {
+            "Id": 10011,
+            "children": [],
+            "duration": 1,
+            "EndDate": "2019-11-12 00:00",
+            "expanded": true,
+            "TaskType": "Important",
+            "leaf": true,
+            "Name": "目标调相",
+            "StartDate": "2019-11-11"
+          },
+          {
+            "Id": 10012,
+            "children": [],
+            "duration": 2,
+            "EndDate": "2019-11-13 00:00",
+            "TaskType": "Important",
+            "expanded": true,
+            "leaf": true,
+            "Name": "轨道变化",
+            "StartDate": "2019-11-11"
+          },
+          {
+            "Id": 10013,
+            "children": [],
+            "duration": 3,
+            "EndDate": "2019-11-14 00:00",
+            "TaskType": "Important",
+            "expanded": true,
+            "leaf": true,
+            "Name": "目标对准",
+            "StartDate": "2019-11-11"
+          },
+          {
+            "Id": 10014,
+            "children": [],
+            "duration": 4,
+            "EndDate": "2019-11-15 00:00",
+            "expanded": true,
+            "TaskType": "Important",
+            "leaf": true,
+            "Name": "目标观测",
+            "StartDate": "2019-11-11"
+          },
+          {
+            "Id": 10015,
+            "children": [],
+            "duration": 5,
+            "EndDate": "2019-11-16 00:00",
+            "expanded": true,
+            "leaf": true,
+            "TaskType": "Important",
+            "Name": "图像数据传回",
+            "StartDate": "2019-11-11"
+          }
+        ],
+        "duration": 0,
+        "EndDate": "2019-11-11 00:00",
+        "expanded": true,
+        "leaf": false,
+        "Name": "xx观测任务任务规划",
+        "StartDate": "2019-11-11"
+      }
+    ]
+  }
+}

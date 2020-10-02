@@ -1,0 +1,567 @@
+{
+    "success" : true,
+    "assignments": {
+        "rows" : [
+            {
+                "Id":3,
+                "ResourceId":3,
+                "TaskId":12,
+                "Units":50
+            },
+            {
+                "Id":4,
+                "ResourceId":4,
+                "TaskId":13,
+                "Units":"频道一"
+            },
+        {
+            "Id":40,
+            "ResourceId":4,
+            "TaskId":14,
+            "Units":"频道二"
+        }
+        ]
+    },
+    "calendars" : {
+        "metaData"  : {
+            "projectCalendar" : "default"
+        },
+        "rows" : [
+            {
+                "Id"    : "default",
+                "Name"  : "Default",
+                "parentId"  : null,
+                "DaysPerWeek" : 7,
+                "DaysPerMonth" : 30,
+                "HoursPerDay" : 24,
+                "WeekendFirstDay" : 6,
+                "WeekendSecondDay" : 0,
+                "WeekendsAreWorkDays" : true,
+                "defaultAvailableAllocation":[100,100],
+                "DefaultAvailability" : ["08:00-12:00", "13:00-17:00"]
+            },
+        {
+            "Id"                    : "Customized",
+            "Name"                  : "Customized",
+            "DaysPerMonth"          : 30,
+            "DaysPerWeek"           : 7,
+            "HoursPerDay"           : 24,
+            "WeekendsAreWorkdays"   : true,
+            "WeekendFirstDay"       : 6,
+            "WeekendSecondDay"      : 0,
+            "DefaultAvailability"   : ["00:00-24:00"],
+            "defaultAvailableAllocation":[50],
+            "leaf"                  : true,
+            "Days"                  : {
+                "rows": [
+                    {
+                        "Id"            : 1,
+                        "Date"          : "2010-01-19",
+                        "Availability"  : ["00:00-24:00"],
+                        "availableAllocation":[10]
+                    },
+                    {
+                        "Id"            : 2,
+                        "Date"          : "2010-01-20",
+                        "Availability"  : ["00:00-24:00"],
+                        "availableAllocation":[90]
+                    },
+                    {
+                        "Id"            : 3,
+                        "Date"          : "2010-01-21",
+                        "Availability"  : ["00:00-24:00"],
+                        "availableAllocation":[70]
+                    }
+                ]
+            }
+        },
+        {
+            "Id"                    : "Customized2",
+            "Name"                  : "Customized2",
+            "DaysPerMonth"          : 30,
+            "DaysPerWeek"           : 7,
+            "HoursPerDay"           : 24,
+            "WeekendsAreWorkdays"   : true,
+            "WeekendFirstDay"       : 6,
+            "WeekendSecondDay"      : 0,
+            "DefaultAvailability"   : ["10:00-24:00"],/*默认可用资源范围*/
+            "defaultAvailableAllocation":[["频道二","频道三"]],/*默认可用资源量*/
+            "leaf"                  : true
+
+        }
+            /*,
+            {
+                "Id"    : "NightShift",
+                "Name"  : "Night Shift",
+                "parentId"  : null,
+                "DaysPerWeek" : 5,
+                "DaysPerMonth" : 20,
+                "HoursPerDay" : 24,
+                "WeekendFirstDay" : 6,
+                "WeekendSecondDay" : 0,
+                "WeekendsAreWorkDays" : false,
+                "DefaultAvailability" : ["00:00-24:00"]
+                //"DefaultAvailability" : ["00:00-06:00", "22:00-24:00"]
+            }*/
+        ]
+    },
+    "resources": {
+        "rows" : [
+            {
+                "Id":1008,
+                "Name":"三级曲轴16M机械臂",
+                "Type":"platform"
+            },
+            {
+                "Id":1008,
+                "Name":"四级曲轴28M机械臂",
+                "Type":"platform"
+            },
+            {
+                "Id":1003,
+                "Name":"运输通道一",
+                "Type":"platform"
+            },
+            {
+                "Id":1004,
+                "Name":"运输通道二",
+                "Type":"platform"
+            },
+            {
+                "Id":4,
+                "CalendarId":"Customized2",
+                "Name":"通信带宽",
+                "unitsType":"3",
+                "unitsValues":["频道一","频道二","频道三"],
+                "Type":"platform"
+            },
+            {
+                "CalendarId":"default",
+                "Id":1002,
+                "Name":"实验设备二",
+                "Type":"application"
+            },
+            {
+                "CalendarId":"Customized",
+                "Id":1,
+                "Name":"实验设备一",
+                "Type":"application",
+                "unitsType":"7",
+                "scaleLabelStep":50,
+                "scaleMax":200
+            },
+            {
+                "Id":2,
+                "Name":"航天员一",
+                "Type":"user"
+            },
+            {
+                "Id":5,
+                "Name":"航天员二",
+                "Type":"user"
+            },
+            {
+                "Id":6,
+                "Name":"航天员三",
+                "Type":"user"
+            },
+            {
+                "Id":3,
+                "Name":"平台功耗",
+                "unitsType":"1",
+                "Type":"platform"
+            }
+        ]
+    },
+    "dependencies": {
+        "rows" : [
+            {
+                "Id":1,
+                "From":12,
+                "To":13,
+                "Type":0
+            },
+            {
+                "Id":2,
+                "From":20,
+                "To":19,
+                "Type":2
+            },
+            {
+                "Id":3,
+                "From":19,
+                "To":18,
+                "Type":2
+            },
+            {
+                "Id":4,
+                "From":18,
+                "To":21,
+                "Type":2
+            },
+            {
+                "Id":5,
+                "From":21,
+                "To":5,
+                "Type":2
+            },
+            {
+                "Id":6,
+                "From":9,
+                "To":7,
+                "Type":2
+            },
+            {
+                "Id":7,
+                "From":26,
+                "To":25,
+                "Type":0
+            },
+            {
+                "Id":8,
+                "From":27,
+                "To":26,
+                "Type":0
+            },
+            {
+                "Id":9,
+                "From":6,
+                "To":10,
+                "Type":2
+            },
+            {
+                "Id":10,
+                "From":24,
+                "To":9,
+                "Type":2
+            },
+            {
+                "Id":11,
+                "From":22,
+                "To":23,
+                "Type":2
+            },
+            {
+                "Id":12,
+                "From":11,
+                "To":12,
+                "Type":0
+            },
+            {
+                "Id":13,
+                "From":34,
+                "To":20,
+                "Type":2
+            },
+            {
+                "Id":14,
+                "From":13,
+                "To":17,
+                "Type":2
+            }
+        ]
+    },
+    "tasks" : {
+        "rows":[
+            {
+                "Name":"天地往返运输",
+                "StartDate":"2010-01-18",
+                "EndDate":"2010-05-15",
+                "deptId": 0,
+                "children":[
+                    {
+                        "Id":1,
+                        "Name":"仓容物统筹归置",
+                        "PercentDone":50,
+                        "StartDate":"2010-01-18",
+                        "EndDate":"2010-01-30",
+                        "TaskType":"Important",
+                        "Draggable":false,
+                        "Resizable":false,
+                        "ReadOnly":true,
+                        "deptId": 0,
+                        "children":[
+                            {
+                                "Duration":17,
+                                "Id":11,
+                                "Name":"工程信息中心待载物归置",
+                                "PercentDone":50,
+                                "StartDate":"2010-01-18",
+                                "TaskType":"LowPrio",
+                                "leaf":true,
+                                "Draggable":false,
+                                "Resizable":false,
+                                "ReadOnly":true,
+                                "PersonName":"田家顺",
+                                "Person":"1",
+                                "deptId": 0,
+                                Rollup:true
+                            },
+                            {
+                                "Duration":12,
+                                "Id":12,
+                                "Name":"航天员生命支持消耗品归置",
+                                "PercentDone":50,
+                                "StartDate":"2010-01-18",
+                                "leaf":true,
+                                "Draggable":false,
+                                "Resizable":false,
+                                "deptId": 0,
+                                "ReadOnly":true
+                            },
+                            {
+                                "Duration":10,
+                                "Id":13,
+                                "Name":"生命科学实验装置归置",
+                                "PercentDone":50,
+                                "Resizable":false,
+                                "StartDate":"2010-01-18",
+                                "leaf":true,
+                                "Draggable":false,
+                                "deptId": 0,
+                                "ReadOnly":true
+                            },
+                            {
+                                "Duration":3,
+                                "Id":17,
+                                "Name":"运行控制中心备品备件归置",
+                                "PercentDone":0,
+                                "StartDate":"2010-01-30",
+                                "ManuallyScheduled" : false,
+                                "leaf":true,
+                                "Draggable":false,
+                                "Resizable":false,
+                                "deptId": 0,
+                                "ReadOnly":true
+                            }
+                        ],
+                        "expanded":true
+                    },
+                    {
+                        "Duration":12,
+                        "Id":4,
+                        "Name":"出舱活动",
+                        "PercentDone":50,
+                        "StartDate":"2010-02-01",
+                        "TaskType":"LowPrio",
+                        "deptId": 1,
+                        "children":[
+                            {
+                                "Duration":5,
+                                "Id":34,
+                                "Name":"初次试验",
+                                "PercentDone":30,
+                                "StartDate":"2010-02-01",
+                                "deptId": 1,
+                                "leaf":true
+                            },
+                            {
+                                "Duration":5,
+                                "Id":14,
+                                "Name":"F3平衡推进器液压传动装置检修",
+                                "PercentDone":30,
+                                "StartDate":"2010-02-07",
+                                "deptId": 1,
+                                "leaf":true
+                            },
+                            {
+                                "Duration":5,
+                                "Id":16,
+                                "Name":"A2平台检修",
+                                "PercentDone":30,
+                                "StartDate":"2010-02-15",
+                                "deptId": 1,
+                                "leaf":true
+                            },
+                            {
+                                "Duration":5,
+                                "Id":15,
+                                "Name":"修复次级太阳能自动伸缩故障",
+                                "PercentDone":40,
+                                "StartDate":"2010-02-20",
+                                "deptId": 2,
+                                "children":[
+                                    {
+                                        "Duration":4,
+                                        "Id":20,
+                                        "Name":"备用能源切换",
+                                        "PercentDone":60,
+                                        "StartDate":"2010-02-20",
+                                        "ManuallyScheduled" : false,
+                                        "leaf":true,
+                                        "deptId": 2,
+                                        "Person":"2"
+                                    },
+                                    {
+                                        "Duration":2,
+                                        "Id":19,
+                                        "Name":"控制板更换",
+                                        "PercentDone":60,
+                                        "StartDate":"2010-02-24",
+                                        "ManuallyScheduled" : false,
+                                        "deptId": 2,
+                                        "leaf":true
+                                    },
+                                    {
+                                        "Duration":4,
+                                        "Id":18,
+                                        "Name":"隔离试运行",
+                                        "PercentDone":60,
+                                        "StartDate":"2010-02-27",
+                                        "ManuallyScheduled" : false,
+                                        "deptId": 2,
+                                        "leaf":true
+                                    },
+                                    {
+                                        "Duration":1,
+                                        "Id":21,
+                                        "Name":"接入供电系统",
+                                        "PercentDone":60,
+                                        "StartDate":"2010-03-4",
+                                        "ManuallyScheduled" : false,
+                                        "deptId": 2,
+                                        "leaf":true
+                                    }
+                                ],
+                                "expanded":true
+                            }
+                        ],
+                        "expanded":true
+                    },
+                    {
+                        "Duration":0,
+                        "Id":5,
+                        "Name":"任务验收",
+                        "PercentDone":0,
+                        "StartDate":"2010-02-18",
+                        "ManuallyScheduled" : false,
+                        "leaf":true
+                    },
+                    {
+                        "Duration":8,
+                        "Id":6,
+                        "Name":"长期规划三",
+                        "PercentDone":50,
+                        "StartDate":"2010-02-22",
+                        "children":[
+                            {
+                                "Duration":8,
+                                "Id":25,
+                                "Name":"Task 1",
+                                "PercentDone":10,
+                                "StartDate":"2010-02-22",
+                                "leaf":true
+                            },
+                            {
+                                "Duration":8,
+                                "Id":26,
+                                "Name":"Task 2",
+                                "PercentDone":20,
+                                "StartDate":"2010-02-22",
+                                "leaf":true
+                            },
+                            {
+                                "Duration":8,
+                                "Id":27,
+                                "Name":"Task 3",
+                                "PercentDone":20,
+                                "StartDate":"2010-02-22",
+                                "leaf":true
+                            }
+                        ],
+                        "expanded":true
+                    },
+                    {
+                        "Duration":0,
+                        "Id":10,
+                        "Name":"阶段验收",
+                        "PercentDone":0,
+                        "StartDate":"2010-03-17",
+                        "ManuallyScheduled" : false,
+                        "leaf":true
+                    },
+                    {
+                        "Duration":35,
+                        "Id":8,
+                        "Name":"长期规划四",
+                        "PercentDone":40,
+                        "StartDate":"2010-03-22",
+                        "children":[
+                            {
+                                "Duration":12,
+                                "Id":22,
+                                "Name":"任务1",
+                                "PercentDone":50,
+                                "StartDate":"2010-03-22",
+                                "leaf":true
+                            },
+                            {
+                                "Duration":11,
+                                "Id":23,
+                                "Name":"任务2",
+                                "PercentDone":20,
+                                "StartDate":"2010-04-06",
+                                "ManuallyScheduled" : false,
+                                "leaf":true
+                            },
+                            {
+                                "Duration":12,
+                                "Id":24,
+                                "Name":"任务3",
+                                "PercentDone":50,
+                                "StartDate":"2010-04-22",
+                                "leaf":true
+                            }
+                        ],
+                        "expanded":true
+                    },
+                    {
+                        "Duration":6,
+                        "Id":9,
+                        "Name":"",
+                        "PercentDone":0,
+                        "StartDate":"2010-05-07",
+                        "ManuallyScheduled" : false,
+                        "leaf":true
+                    },
+                    {
+                        "Duration":0,
+                        "Id":7,
+                        "Name":"交付",
+                        "PercentDone":40,
+                        "StartDate":"2010-05-15",
+                        "ManuallyScheduled" : false,
+                        "leaf":true
+                    }
+                ],
+                //"cls":"project",
+                "expanded":true
+            }
+        ]
+    },
+    "users":{
+    "rows":[
+        {Id:1,Name:"田家顺1"},
+        {Id:2,Name:"田家顺2"},
+        {Id:3,Name:"田家顺3"},
+        {Id:4,Name:"田家顺4"},
+        {Id:5,Name:"田家顺5"},
+        {Id:6,Name:"田家顺6"},
+        {Id:7,Name:"田家顺7"},
+        {Id:8,Name:"田家顺8"},
+        {Id:9,Name:"田家顺9"},
+        {Id:10,Name:"田家顺10"},
+        {Id:1,Name:"田家顺1"},
+        {Id:11,Name:"田家顺11"},
+        {Id:12,Name:"田家顺12"},
+        {Id:13,Name:"田家顺13"},
+        {Id:14,Name:"田家顺14"},
+        {Id:15,Name:"田家顺15"},
+        {Id:16,Name:"田家顺16"},
+        {Id:17,Name:"田家顺17"},
+        {Id:18,Name:"田家顺18"},
+        {Id:19,Name:"田家顺19"},
+        {Id:20,Name:"田家顺20"}
+    ]
+}
+}

@@ -1,0 +1,249 @@
+/* .l-bg-body .l-container-Outer {} */
+.l-bg-body .l-camp-window .l-dialog-form {
+    padding: 40px 15px;
+    /* height: 100px; */
+}
+
+/* .l-bg-body .l-camp-window .l-camp-attachment p {
+    width: 100%;
+} */
+/* .l-bg-body .l-camp-window .l-camp-attachment  div{
+    padding: 10px;
+} */
+/* .l-bg-body .l-camp-window .l-dialog-form form{
+    height: 100px;
+} */
+/* .l-bg-body .l-camp-window {
+    color: rgb(108, 253, 249)!important;
+    font-size: 20px!important;
+} */
+.l-bg-body .l-camp-window .l-dialog-form .l-camp-form {
+    margin-top: 45px;
+}
+
+.l-list-wrap {
+    border: 1px solid #0eb4e8;
+    padding: 10px 10px 10px 10px;
+}
+
+/* .l-bg-body .l-camp-window {
+    background-color: red;
+} */
+
+.l-bg-body .l-camp-window .l-form-row>div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    flex-wrap: wrap
+}
+
+.l-bg-body .l-camp-window .l-form-row>div>div {
+    width: calc(100%/3);
+    display: flex
+}
+
+.l-bg-body .l-camp-window .l-form-row .l-camp-div {
+    display: flex;
+    justify-content: flex-start
+}
+
+.l-bg-body .l-camp-window .group-title {
+    padding-left: 10px;
+    border-left: 5px solid rgb(108, 253, 249);
+}
+
+.l-bg-body .l-camp-window .l-camp-row>div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+.l-bg-body .l-camp-window .l-camp-row>div>div {
+    width: calc(100%/3);
+    display: flex;
+}
+
+.l-bg-body .l-camp-window .l-camp-row a {
+    text-decoration: none;
+    color: rgb(108, 253, 249);
+    font-size: 13px;
+    line-height: 32px;
+}
+
+.l-bg-body .l-camp-window .l-camp-row i {
+    padding: 0px 10px 0px 0px;
+    color: rgb(108, 253, 249);
+    font-size: 30px;
+}
+
+.l-bg-body .l-camp-window .l-camp-attachment {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+.l-bg-body .l-camp-window .l-camp-attachment div {
+    display: flex;
+    padding-right: 35px;
+}
+
+.l-bg-body .l-camp-window .l-camp-attachment div:nth-child(1) i {
+    padding: 0px 10px 0px 0px;
+    color: rgb(108, 253, 249);
+    font-size: 30px;
+}
+
+.l-bg-body .l-camp-window .l-camp-attachment div:nth-child(1) a {
+    color: rgb(108, 253, 249);
+}
+
+.l-bg-body .l-camp-window .l-camp-attachment div:nth-child(2) i {
+    padding: 0px 10px 0px 0px;
+    color: #6CC9FE;
+    font-size: 30px;
+}
+
+.l-bg-body .l-camp-window .l-camp-attachment div:nth-child(3) i {
+    padding: 0px 10px 0px 0px;
+    color: #DCA12D;
+    font-size: 30px;
+}
+
+.l-bg-body .l-camp-window .l-camp-attachment div:nth-child(4) i {
+    padding: 0px 10px 0px 0px;
+    color: rgb(29, 160, 33);
+    font-size: 27px;
+}
+
+/* .l-bg-body .l-camp-window .l-camp-attachment div i {
+    padding: 0px 10px 0px 0px;
+    color: rgb(108, 253, 249);
+    font-size: 30px;
+} */
+.l-bg-body .l-camp-window .l-camp-attachment div a {
+    text-decoration: none;
+    color: #ffff;
+    font-size: 13px;
+    line-height: 32px;
+}
+
+.l-bg-body .l-camp-window .l-dialog-form .camp-button-div {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.panel.datagrid .datagrid-wrap.panel-body .datagrid-body .datagrid-row.l-datagrid-row-selected {
+    background-color: #3D6F66 !important
+}
+
+/* .panel.datagrid .datagrid-wrap.panel-body .datagrid-body .datagrid-row.l-datagrid-row-selected td {
+    border-color: #3D6F66
+} */
+.l-demand-data .tabs-panels {
+    height: 550px !important;
+    width: 900px !important;
+    margin: 0px 20px 20px 30px;
+}
+
+.l-demand-data .dialog-button {
+    display: flex;
+    margin-top: -23px;
+    padding-bottom: 60px;
+    justify-content: center;
+}
+
+.dialog-button {
+    display: flex;
+    margin-top: -23px;
+    padding-bottom: 60px;
+    justify-content: center;
+}
+
+.tabs-panels {
+    height: 610px !important;
+    width: 1000px !important;
+    margin: 0px 20px 20px 30px;
+}
+
+.tabs {
+    padding: 22px 0px 0px 30px;
+}
+
+.dialog-button .l-btn {
+    margin: 13px 70px;
+    width: 150px;
+    height: 36px;
+    line-height: 36px;
+    padding-left: 10px;
+    display: block;
+    margin: 0 auto;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+}
+.z-demand-table-header td{
+    border: none
+}
+.z-demand-table-header td a{
+    border: none
+}
+.z-demand-table-header .datagrid-wrap .l-btn-plain{
+    background: none
+}
+.dialog-button .l-btn:nth-child(1) {
+    background: url("../image/z-create-btn-sub.png") no-repeat center center;
+   
+}
+.dialog-button .l-btn:nth-child(2) {
+    background:url("../image/z-create-quit.png") no-repeat center center
+}
+.datagrid-toolbar .l-btn-plain {
+    width: 141px;
+    background: url("../image/z-demand-title.png") no-repeat center center;
+    /* background-image: url(./image/z-head-btn.png) !important; */
+    /* margin-right: 10px; */
+    /* background: rgb(48, 143, 187); */
+    height: 37px;
+    color: #fff;
+    /* margin-left: 10px; */
+    margin-right: 10px;
+    /* background: rgb(48,143,187);
+            margin: 0 10px;
+            text-align: center;
+            color: #fff; */
+}
+.datagrid-wrap .l-btn-plain{
+    background: none;
+    border: 1px solid #0eb4e8;
+    width: 90px;
+    margin-right: 30px;
+}
+.datagrid-wrap .l-btn-plain .l-btn-text{
+    font-size: 14px
+}
+.datagrid-wrap .l-btn-plain .iconfont{
+    font-size: 16px
+}
+.datagrid-wrap .datagrid-btn-separator{
+    display: none
+}
+
+.l-btn-plain:hover {
+    /* background: rgba(251, 251, 251, 0); */
+    color: #C0A030;
+}
+.datagrid-editable-input{
+    background-image: url("../image/z-head-select.jpg");
+    color: #fff;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 0 !important;
+    padding: 0 10px!important;
+    box-sizing: border-box;
+    height: 27px!important;
+}
+
+

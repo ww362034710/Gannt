@@ -1,0 +1,195 @@
+.main-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    .main-left {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 210px;
+        bottom: 0;
+        overflow: auto;
+        transition: all 0.2s;
+        background-color: #2f4050;
+    }
+    .main-right {
+        position: absolute;
+        top: 0;
+        left: 210px;
+        right: 0;
+        bottom: 0;
+        overflow: auto;
+        transition: all 0.2s;
+        overflow: hidden;
+    }
+}
+
+.transitionBody {
+    transition: all 0.5s ease;
+    /*定义动画的时间和过渡效果*/
+}
+
+.transitionLeft-enter,
+.transitionRight-leave-active {
+    transform: translate(100%, 0);
+    /*当左滑进入右滑进入过渡动画*/
+}
+
+.transitionLeft-leave-active,
+.transitionRight-enter {
+    transform: translate(-100%, 0);
+}
+
+@mixin mainFlex($jc: space-around) {
+    display: flex;
+    align-items: center;
+    justify-content: $jc;
+}
+
+@mixin userInfosI($fs: 13px, $cl: #ffffff) {
+    font-size: $fs;
+    margin-right: 6px;
+    color: $cl;
+}
+
+.components-layout-demo-custom-trigger {
+    width: 100%;
+    height: 100%;
+    .trigger {
+        font-size: 18px;
+        line-height: 64px;
+        padding: 0 24px;
+        cursor: pointer;
+        transition: color 0.3s;
+        &:hover {
+            color: #1890ff;
+        }
+    }
+    .layout-header {
+        background: #3c8dbc;
+        padding: 0;
+        position: relative;
+        .top-userInfos {
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: 100%;
+            width: 140px;
+            padding: 0 6px;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            background-color: #3c8dbc;
+            &:hover {
+                background-color: #367fa9;
+            }
+            img {
+                margin-right: 6px;
+            }
+            .userName {
+                flex: 1;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                font-size: 16px;
+                font-weight: 600;
+                color: #ffffff;
+            }
+        }
+    }
+    .logo {
+        height: 64px;
+        text-align: center;
+        font-size: 26px;
+        letter-spacing: 6px;
+        text-indent: 6px;
+        line-height: 64px;
+        color: #ffffff;
+        background: #367fa9;
+        cursor: pointer;
+    }
+    .sidebar-user {
+        @include mainFlex();
+        padding: 15px;
+        line-height: 20px;
+        color: #fff;
+        img {
+            cursor: pointer;
+            margin-right: 6px;
+        }
+        .userTool-con {
+            .userName {
+                width: 130px;
+                font-size: 13px;
+                font-weight: 600;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                margin-left: -20px;
+                padding-left: 20px;
+            }
+            .userTool {
+                @include mainFlex(flex-start);
+                font-size: 12px;
+                div {
+                    cursor: pointer;
+                    &:nth-child(1) {
+                        margin-right: 20px;
+                    }
+                }
+                .icondian {
+                    @include userInfosI(12px, #1c84c6);
+                }
+                .icontuichu1 {
+                    @include userInfosI(13px, #ed5565);
+                }
+            }
+        }
+    }
+    .slideMain {
+        position: absolute;
+        top: 137px;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: auto;
+    }
+    .tags-main {
+        height: 40px;
+        background-color: #ffffff;
+        position: relative;
+        .tags {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 60px;
+            height: 100%;
+            flex: 1;
+        }
+        .refresh {
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 60px;
+            height: 100%;
+            line-height: 40px;
+            text-align: center;
+            background-color: #ececec;
+            cursor: pointer;
+            font-size: 13px;
+            i {
+                margin-right: 4px;
+            }
+        }
+    }
+    .main-content {
+        position: absolute;
+        top: 104px;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        box-sizing: border-box;
+        overflow-y: auto;;
+    }
+}

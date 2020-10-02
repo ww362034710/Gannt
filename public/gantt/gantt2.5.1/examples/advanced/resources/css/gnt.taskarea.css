@@ -1,0 +1,24 @@
+.gnt-taskarea {
+    position         : absolute;
+    top              : 100%;
+    left             : 0;
+    margin-left      : -1px;
+    background-color : inherit;
+    border-width     : 0;
+    opacity          : 0.2;
+    width            : inherit;
+    border-radius    : 4px;
+    z-index          : -1;
+    pointer-events   : none;
+}
+
+.gnt-taskarea-inner {
+    width            : 100%;
+    border-radius    : inherit;
+    border-width     : 1px;
+    border-style     : solid;
+    border-color     : inherit;
+    height           : 100%;
+    opacity          : 0.7;
+    background-color : transparent;
+}

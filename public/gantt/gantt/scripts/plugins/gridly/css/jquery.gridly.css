@@ -1,0 +1,176 @@
+/* jQuery Gridly
+ * Copyright 2013 Kevin Sylvestre
+ * 1.2.3
+ */
+.gridly, .gridly > :not(.dragging) {
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out; }
+.gridly .dragging {
+    z-index: 800; }
+
+
+/** {*/
+    /*-webkit-box-sizing: border-box;*/
+    /*-moz-box-sizing: border-box;*/
+    /*box-sizing: border-box; }*/
+
+/*body, html, p, h1, h2, h3, h4, h5, h6 {*/
+    /*font-family: "Lato", "Helvetica", serif;*/
+    /*font-weight: normal; }*/
+
+/*code {*/
+    /*font-family: "Consolas", "Monaco", monospace;*/
+    /*font-weight: normal; }*/
+
+/*body, html, p, code {*/
+    /*color: #888888; }*/
+
+/*h1, h2, h3, h4, h5, h6 {*/
+    /*color: #444444; }*/
+
+/*pre {*/
+    /*overflow: scroll;*/
+    /*background: #eeeeee;*/
+    /*padding: 10px; }*/
+
+.content {
+    width: 100%;
+    margin: 20px 16px;
+}
+
+.formats .format {
+    display: inline-block; }
+
+.zip {
+    background: url("../images/zip.png");
+    display: block;
+    width: 128px;
+    height: 128px; }
+
+.tar {
+    background: url("../images/tar.png");
+    display: block;
+    width: 128px;
+    height: 128px; }
+
+.fork {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 0; }
+
+.button {
+    display: block;
+    padding: 20px;
+    width: 200px;
+    color: white;
+    background: #888888;
+    margin: 20px 0;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px; }
+
+pre .support.tag {
+    color: #000088; }
+pre .support.attribute {
+    color: #880000; }
+pre .string.value {
+    color: #008800; }
+
+.example {
+    position: relative; }
+.example .brick {
+    width: 15%;
+    /*margin-right: 2%;*/
+    display: inline-block;
+    margin-right: 0.8%;
+    margin-bottom: 20px;
+    opacity: 1;
+    cursor: pointer;
+    position: relative;
+    border: 2px solid;
+}
+.example .brick .delete {
+    display: block;
+    color: white;
+    background: rgba(255, 255, 255, 0.2);
+    width: 40px;
+    height: 40px;
+    top: 0;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    line-height: 40px; }
+.example .brick.small {
+    /*width: 140px;*/
+    /*height: 140px;*/
+    width: 10%;
+    height: 140px;
+}
+.example .brick.large {
+    width: 300px;
+    height: 300px;
+}
+.example .brick.dragging {
+    opacity: 0.8; }
+.example .brick:nth-child(20n + 1) {
+    border-color: #1be6c5;
+    background: #1abc9c; }
+.example .brick:nth-child(20n + 2) {
+    border-color: #1fe5be;
+    background: #16a085; }
+.example .brick:nth-child(20n + 3) {
+    border-color: #36f185;
+    background: #2ecc71; }
+.example .brick:nth-child(20n + 4) {
+    border-color: #34e981;
+    background: #27ae60; }
+.example .brick:nth-child(20n + 5) {
+    border-color: #3aa9f4;
+    background: #3498db; }
+.example .brick:nth-child(20n + 6) {
+    border-color: #35a5ee;
+    background: #2980b9; }
+.example .brick:nth-child(20n + 7) {
+    border-color: #ca74ed;
+    background: #9b59b6; }
+.example .brick:nth-child(20n + 8) {
+    border-color: #c55ff1;
+    background: #8e44ad; }
+.example .brick:nth-child(20n + 9) {
+    border-color: #5f84aa;
+    background: #34495e; }
+.example .brick:nth-child(20n + 10) {
+    border-color: #5c82a8;
+    background: #2c3e50; }
+.example .brick:nth-child(20n + 11) {
+    border-color: #ffd010;
+    background: #f1c40f; }
+.example .brick:nth-child(20n + 12) {
+    border-color: #ffa712;
+    background: #f39c12; }
+.example .brick:nth-child(20n + 13) {
+    border-color: #ff8c26;
+    background: #e67e22; }
+.example .brick:nth-child(20n + 14) {
+    border-color: #fa6400;
+    background: #d35400; }
+.example .brick:nth-child(20n + 15) {
+    border-color: #fc5341;
+    background: #e74c3c; }
+.example .brick:nth-child(20n + 16) {
+    border-color: #ee4735;
+    background: #c0392b; }
+.example .brick:nth-child(20n + 17) {
+    border-color: #f5f9fa;
+    background: #ecf0f1; }
+.example .brick:nth-child(20n + 18) {
+    border-color: #e1e8ed;
+    background: #bdc3c7; }
+.example .brick:nth-child(20n + 19) {
+    border-color: #c0d5d6;
+    background: #95a5a6; }
+.example .brick:nth-child(20n + 20) {
+    border-color: #b1c3c4;
+    background: #7f8c8d; }

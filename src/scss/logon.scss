@@ -1,0 +1,158 @@
+.login {
+  .time-bd {
+    width: 264px;
+    height: 60px;
+    background: url(../assets/img/time-bd.png) center center no-repeat;
+    position: absolute;
+    right: 62px;
+    top: 43px;
+    z-index: 1;
+    padding: 15px 50px;
+  }
+
+  .first-video {
+    position: absolute;
+    right: 50%;
+    margin-right: -960px;
+    bottom: 0px;
+    top: 0px;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: 1920px;
+    height: auto;
+    z-index: 0;
+  }
+
+  .radar-main {
+    width: 217px;
+    height: 217px;
+    background: url(../assets/img/radar.png) center center no-repeat;
+    position: absolute;
+    left: 70px;
+    bottom: 70px;
+    z-index: 2;
+  }
+
+  .login-bg {
+    .tp-left {
+      position: absolute;
+      left: 0;
+      width: 850px;
+      top: 0;
+      height: 284px;
+      background: url(../assets/img/lines-tp-left.png) center top no-repeat;
+    }
+
+    .time {
+      position: absolute;
+      width: 116px;
+      height: 330px;
+      left: 0;
+      top: 50%;
+      margin-top: -165px;
+      background: url(../assets/img/lines-time2.png) center top no-repeat;
+    }
+
+    .tp-right {
+      position: absolute;
+      right: 0;
+      width: 84px;
+      top: 0;
+      height: 271px;
+      background: url(../assets/img/lines-tp-right.png) center top no-repeat;
+    }
+
+    .bt-left {
+      position: absolute;
+      left: 0;
+      width: 84px;
+      bottom: 0;
+      height: 271px;
+      background: url(../assets/img/lines-bt-left.png) center top no-repeat;
+    }
+
+    .bt-right {
+      position: absolute;
+      right: 0;
+      width: 850px;
+      bottom: 0;
+      height: 471px;
+      background: url(../assets/img/lines-bt-right.png) center top no-repeat;
+    }
+  }
+
+  .sign-in {
+    width: 720px;
+    height: 545px;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    margin-left: -386px;
+    top: 50%;
+    margin-top: -272.5px;
+    z-index: 10;
+
+    .apply {
+      font-size: 42px;
+      color: #66efff;
+      text-shadow: 1px 1px 1px #000;
+      text-align: center;
+      line-height: 46px;
+      letter-spacing: 8px;
+      margin-bottom: 20px;
+      font-family: "宋体";
+    }
+
+    .sign-in-main {
+      h3 {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 600;
+        color: #fff;
+        margin-top: 60px;
+        font-family: "宋体";
+      }
+    }
+  }
+
+  .login-form {
+    width: 320px;
+    margin: 0 auto;
+
+    .ant-form-item {
+      margin-top: 40px;
+    }
+
+    .ant-input {
+      height: 42px;
+      line-height: 42px;
+      padding-left: 64px;
+      background: 0 none;
+      border: 0 none;
+      color: #59d6e4;
+      font-size: 16px;
+      margin-top: -7px;
+    }
+
+    .btn {
+      cursor: pointer;
+      font-size: 20px;
+      color: #e4fdff;
+      width: 100%;
+      height: 54px;
+      background: url(../assets/img/btn-bg.png) center center no-repeat;
+      display: block;
+      text-align: center;
+      line-height: 52px;
+      margin-top: 18px;
+      outline: none;
+      border: none;
+    }
+
+    .btn:hover {
+      background: url(../assets/img/btn-bg-hover.png) center center no-repeat;
+    }
+  }
+}

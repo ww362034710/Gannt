@@ -1,0 +1,290 @@
+$panel-padding:12px;
+@mixin mainFlex($jc: space-around) {
+    display: flex;
+    align-items: center;
+    justify-content: $jc;
+}
+
+@mixin userInfosI($fs: 13px, $cl: #ffffff) {
+    font-size: $fs;
+    margin-right: 6px;
+    color: $cl;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.transitionBody {
+    transition: all 0.5s ease;
+    /*定义动画的时间和过渡效果*/
+}
+
+.transitionLeft-enter,
+.transitionRight-leave-active {
+    transform: translate(100%, 0);
+    /*当左滑进入右滑进入过渡动画*/
+}
+
+.transitionLeft-leave-active,
+.transitionRight-enter {
+    transform: translate(-100%, 0);
+}
+
+.sidemenu .accordion .panel-title {
+    color: #a7b1c2;
+    font-size: 13px;
+}
+
+.sidemenu .accordion .accordion-header {
+    background: #2f4050;
+    color: #b8c7ce;
+}
+
+.sidemenu .accordion-header .panel-title {
+    color: #a7b1c2;
+}
+
+.sidemenu .accordion .accordion-header-selected {
+    background: #1e282c;
+    color: #ffffff;
+}
+
+.sidemenu .accordion .accordion-header-selected .panel-title {
+    color: #ffffff;
+}
+
+.sidemenu .accordion-header:hover {
+    background: #293846;
+}
+
+.sidemenu .tree-node-hover {
+    background: #2c3b41;
+    color: #fff;
+}
+
+.sidemenu .tree-node-selected {
+    background: #2c3b41;
+    color: #fff;
+}
+
+.sidemenu .accordion-header .panel-tool {
+    display: none;
+}
+
+.accordion-body .tree-title {
+    font-size: 13px;
+}
+
+.sidemenu .accordion-header::after,
+.sidemenu .tree-node-nonleaf::after {
+    display: inline-block;
+    vertical-align: top;
+    border-style: solid;
+    transform: rotate(45deg);
+    width: 4px;
+    height: 4px;
+    content: "";
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -3px;
+    border-width: 0 1px 1px 0;
+}
+
+.sidemenu .accordion-header-selected::after {
+    transform: rotate(-135deg);
+}
+
+.sidemenu .tree-node-nonleaf::after {
+    transform: rotate(-135deg);
+}
+
+.sidemenu .tree-node-nonleaf-collapsed::after {
+    transform: rotate(45deg);
+}
+
+.sidemenu-collapsed .accordion-header::after {
+    display: none;
+}
+
+.sidemenu-tooltip .accordion {
+    border-color: #1e282c;
+}
+
+.app-logo {
+    width: 24px;
+    height: 24px;
+    color: #fff;
+    margin: 13px 10px;
+}
+
+.main-header {
+    background: #3c8dbc;
+    color: #fff;
+    line-height: 50px;
+    height: 52px;
+}
+
+.main-bottom {
+    position: absolute;
+    top: 52px;
+    bottom: 0;
+    width: 100%;
+    @include mainFlex();
+    .menuMain {
+        position: absolute;
+        top: 75px;
+        bottom: 0;
+        width: 100%;
+        overflow: auto;
+    }
+}
+
+.main-title {
+    background: #367fa9;
+    font-size: 20px;
+    text-align: center;
+    overflow: hidden;
+    .miniImg {
+        height: 33px;
+        margin-top: 8px;
+    }
+}
+
+.main-bar {
+    background: #3c8dbc;
+}
+
+.main-toggle {
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 100%;
+    margin: 0 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.main-body {
+    height: 100%;
+    flex: 1;
+    overflow: auto;
+}
+
+.main-body .tags {
+    height: 50px;
+    width: 100%;
+    @include mainFlex(space-between);
+    background-color: #2f4050;
+    .tags-main {
+        height: 100%;
+        flex: 1;
+    }
+    .tags-fresh {
+        padding: 0 15px;
+        box-sizing: border-box;
+        background-color: #2f4050;
+        color: #ffffff;
+        cursor: pointer;
+    }
+}
+
+.main-body .body-item {
+    position: relative;
+    width: 100%;
+    height: calc(100% - 50px);
+    overflow: hidden;
+}
+
+.sidebar-body {
+    height: 100%;
+    background: #2f4050;
+    position: relative;
+}
+
+.top-userInfos {
+    position: relative;
+    height: 100%;
+    float: right;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.sidebar-user {
+    @include mainFlex();
+    padding: 15px;
+    line-height: 20px;
+    color: #fff;
+    img {
+        cursor: pointer;
+        margin-right: 6px;
+    }
+    .userTool-con {
+        flex: 1;
+        .userName {
+            width: 130px;
+            font-size: 13px;
+            font-weight: 600;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        .userTool {
+            @include mainFlex(flex-start);
+            font-size: 12px;
+            div {
+                cursor: pointer;
+                &:nth-child(1) {
+                    margin-right: 20px;
+                }
+            }
+            .icondian {
+                @include userInfosI(12px, #1c84c6);
+            }
+            .icontuichu1 {
+                @include userInfosI(13px, #ed5565);
+            }
+        }
+    }
+}
+
+.page-review {
+    .panel-body {
+        border-color: rgba(255, 255, 255, 0.08);
+        background: rgba(255, 255, 255, 0.12);
+    }
+    .search-tree {
+        padding: $panel-padding;
+    }
+    .search-bar {
+        width: 100%;
+        margin-bottom: $panel-padding;
+    }
+    .add-folder-file {
+        margin-bottom: $panel-padding;
+        .add-folder {
+            margin-right: 12px;
+        }
+    }
+    .handle-link {
+        font-size: 13px;
+        .item {
+            color: #f8f8f8;
+            &:hover {
+                color: #fff;
+            }
+            .l-btn {
+                background: transparent;
+                border: none;
+                padding: inherit;
+            }
+        }
+    }
+}
+
+.page-change-detail {
+    color: #fff;
+}

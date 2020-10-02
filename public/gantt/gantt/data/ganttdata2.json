@@ -1,0 +1,643 @@
+{
+    "success" : true,
+    "assignments": {
+        "rows" : [
+//            {
+//                "Id":2,
+//                "ResourceId":2,
+//                "TaskId":12,
+//                "Units":50
+//            },
+//            {
+//                "Id":3,
+//                "ResourceId":3,
+//                "TaskId":12,
+//                "Units":50
+//            },
+//            {
+//                "Id":4,
+//                "ResourceId":4,
+//                "TaskId":13,
+//                "Units":"频道一"
+//            },
+//        {
+//            "Id":40,
+//            "ResourceId":4,
+//            "TaskId":14,
+//            "Units":"频道二"
+//        },
+//            {
+//                "Id":5,
+//                "ResourceId":5,
+//                "TaskId":14,
+//                "Units":100
+//            },
+//            {
+//                "Id":6,
+//                "ResourceId":6,
+//                "TaskId":16,
+//                "Units":100
+//            }
+        ]
+    },
+    "calendars" : {
+        "metaData"  : {
+            // this specifies identifier of the project calendar
+            "projectCalendar" : "default"
+        },
+        "rows" : [
+            {
+                "Id"    : "default",
+                "Name"  : "Default",
+                "parentId"  : null,
+                "DaysPerWeek" : 7,
+                "DaysPerMonth" : 30,
+                "HoursPerDay" : 24,
+                "WeekendFirstDay" : 6,
+                "WeekendSecondDay" : 0,
+                "WeekendsAreWorkDays" : true,
+                "defaultAvailableAllocation":[100,100],
+                "DefaultAvailability" : ["08:00-12:00", "13:00-17:00"]/*,
+                "DefaultAvailability" : ["00:00-24:00"],
+                "Days" : {
+                    "rows" : [
+                        {
+                            "Cls":"gnt-national-holiday",
+                            "Date":"2010-01-12",
+                            "Id":1,
+                            "calendarId" : "default",
+                            "Name":"Some big holiday"
+                        },
+                        {
+                            "Cls":"gnt-chinese-holiday",
+                            "Date":"2010-02-14",
+                            "Id":2,
+                            "calendarId" : "default",
+                            "Name":"Chinese New Year"
+                        }
+                    ]
+                }*/
+            }
+        ,
+        {
+            "Id"                    : "Customized",
+            "Name"                  : "Customized",
+            "DaysPerMonth"          : 30,
+            "DaysPerWeek"           : 7,
+            "HoursPerDay"           : 24,
+            "WeekendsAreWorkdays"   : true,
+            "WeekendFirstDay"       : 6,
+            "WeekendSecondDay"      : 0,
+            "DefaultAvailability"   : ["00:00-24:00"],/*默认可用资源范围*/
+            "defaultAvailableAllocation":[50],/*默认可用资源量*/
+            "leaf"                  : true,
+            "Days"                  : {
+                "rows": [
+                    {
+                        "Id"            : 1,
+                        "Date"          : "2010-01-19",
+                        "Availability"  : ["00:00-24:00"],
+                        "availableAllocation":[10]
+                    },
+                    {
+                        "Id"            : 2,
+                        "Date"          : "2010-01-20",
+                        "Availability"  : ["00:00-24:00"],
+                        "availableAllocation":[90]
+                    },
+                    {
+                        "Id"            : 3,
+                        "Date"          : "2010-01-21",
+                        "Availability"  : ["00:00-24:00"],
+                        "availableAllocation":[70]
+                    }
+                ]
+            }
+        },
+        {
+            "Id"                    : "Customized2",
+            "Name"                  : "Customized2",
+            "DaysPerMonth"          : 30,
+            "DaysPerWeek"           : 7,
+            "HoursPerDay"           : 24,
+            "WeekendsAreWorkdays"   : true,
+            "WeekendFirstDay"       : 6,
+            "WeekendSecondDay"      : 0,
+            "DefaultAvailability"   : ["10:00-24:00"],/*默认可用资源范围*/
+            "defaultAvailableAllocation":[["频道二","频道三"]],/*默认可用资源量*/
+            "leaf"                  : true
+
+        }
+            /*,
+            {
+                "Id"    : "NightShift",
+                "Name"  : "Night Shift",
+                "parentId"  : null,
+                "DaysPerWeek" : 5,
+                "DaysPerMonth" : 20,
+                "HoursPerDay" : 24,
+                "WeekendFirstDay" : 6,
+                "WeekendSecondDay" : 0,
+                "WeekendsAreWorkDays" : false,
+                "DefaultAvailability" : ["00:00-24:00"]
+                //"DefaultAvailability" : ["00:00-06:00", "22:00-24:00"]
+            }*/
+        ]
+    },
+    "resources": {
+        "rows" : [
+            {
+                "CalendarId":"Customized",
+                "Id":1,
+                "Name":"设备一",
+                "Type":"machine",
+                "unitsType":"7",
+                "scaleLabelStep":50,
+                "scaleMax":200
+            },
+            {
+                "Id":2,
+                "Name":"飞行员",
+                "Type":"user"
+            },
+            {
+                "Id":3,
+                "Name":"平台功耗",
+                "unitsType":"1",
+                "Type":"machine"
+            },
+            {
+                "Id":4,
+                "CalendarId":"Customized2",
+                "Name":"通信带宽",
+                "unitsType":"3",
+                "unitsValues":["频道一","频道二","频道三"],
+                "Type":"user"
+            },
+            {
+                "Id":5,
+                "Name":"飞行员一",
+                "Type":"user"
+            },
+            {
+                "Id":6,
+                "Name":"飞行员二",
+                "Type":"user"
+            },
+            {
+                "Id":1001,
+                "Name":"设备",
+                "Type":"machine"
+            },
+            {
+                "CalendarId":"default",
+                "Id":1002,
+                "Name":"设备",
+                "Type":"machine"
+            },
+            {
+                "Id":1006,
+                "Name":"设备",
+                "Type":"machine"
+            },
+            {
+                "Id":1007,
+                "Name":"设备",
+                "Type":"machine"
+            },
+            {
+                "Id":1008,
+                "Name":"设备3",
+                "Type":"machine"
+            },
+            {
+                "Id":1003,
+                "Name":"运输一",
+                "Type":"truck"
+            },
+            {
+                "Id":1004,
+                "Name":"运输二",
+                "Type":"truck"
+            },
+            {
+                "Id":1005,
+                "Name":"运输三",
+                "Type":"truck"
+            },
+            {
+                "Id":1009,
+                "Name":"战机一",
+                "Type":"airplane"
+            },
+            {
+                "Id":1010,
+                "Name":"战机二",
+                "Type":"airplane"
+            }
+        ]
+    },
+    "dependencies": {
+        "rows" : [
+            {
+                "Id":1,
+                "From":12,
+                "To":13,
+                "Type":0
+            },
+            {
+                "Id":2,
+                "From":20,
+                "To":19,
+                "Type":2
+            },
+            {
+                "Id":3,
+                "From":19,
+                "To":18,
+                "Type":2
+            },
+            {
+                "Id":4,
+                "From":18,
+                "To":21,
+                "Type":2
+            },
+            {
+                "Id":5,
+                "From":21,
+                "To":5,
+                "Type":2
+            },
+            {
+                "Id":6,
+                "From":9,
+                "To":7,
+                "Type":2
+            },
+            {
+                "Id":7,
+                "From":26,
+                "To":25,
+                "Type":0
+            },
+            {
+                "Id":8,
+                "From":27,
+                "To":26,
+                "Type":0
+            },
+            {
+                "Id":9,
+                "From":6,
+                "To":10,
+                "Type":2
+            },
+            {
+                "Id":10,
+                "From":24,
+                "To":9,
+                "Type":2
+            },
+            {
+                "Id":11,
+                "From":22,
+                "To":23,
+                "Type":2
+            },
+            {
+                "Id":12,
+                "From":11,
+                "To":12,
+                "Type":0
+            },
+            {
+                "Id":13,
+                "From":34,
+                "To":20,
+                "Type":2
+            },
+            {
+                "Id":14,
+                "From":13,
+                "To":17,
+                "Type":2
+            }
+        ]
+    },
+    "tasks" : {
+        "rows":[
+        {
+            "Name":"XXX项目计划",
+            "StartDate":"2010-01-18",
+            "EndDate":"2010-05-15",
+            "deptId": 0,
+            "children":[
+                {
+                    "Id":1,
+                    "Name":"长期规划一",
+                    "PercentDone":50,
+                    "deptId": 0,
+                    "StartDate":"2010-01-18",
+                    "EndDate":"2010-01-30",
+                    "TaskType":"Important",
+                    "Draggable":false,
+                    "Resizable":false,
+                    "ReadOnly":true,
+                    "children":[
+                        {
+                            "Duration":10,
+                            "Id":11,
+                            "Name":"任务1",
+                            "deptId": 0,
+                            "PercentDone":50,
+                            "StartDate":"2010-01-18",
+                            "TaskType":"LowPrio",
+                            "leaf":true,
+                            "Draggable":false,
+                            "Resizable":false,
+                            "ReadOnly":true,
+                            "PersonName":"田家顺",
+                            "Person":"1",
+                            Rollup:true
+                        },
+                        {
+                            "Duration":10,
+                            "Id":12,
+                            "Name":"任务2",
+                            "deptId": 0,
+                            "PercentDone":50,
+                            "StartDate":"2010-01-18",
+                            "leaf":true,
+                            "Draggable":false,
+                            "Resizable":false,
+                            "ReadOnly":true
+                        },
+                        {
+                            "Duration":10,
+                            "Id":13,
+                            "Name":"任务3",
+                            "deptId": 0,
+                            "PercentDone":50,
+                            "Resizable":false,
+                            "StartDate":"2010-01-18",
+                            "leaf":true,
+                            "Draggable":false,
+                            "Resizable":false,
+                            "ReadOnly":true
+                        },
+                        {
+                            "Draggable":false,
+                            "Duration":0,
+                            "Id":17,
+                            "Name":"任务4",
+                            "deptId": 0,
+                            "PercentDone":0,
+                            "StartDate":"2010-01-30",
+                            "ManuallyScheduled" : false,
+                            "leaf":true,
+                            "Draggable":false,
+                            "Resizable":false,
+                            "ReadOnly":true
+                        }
+                    ],
+                    "expanded":true
+                },
+                {
+                    "Duration":12,
+                    "Id":4,
+                    "Name":"长期规划二",
+                    "deptId": 1,
+                    "PercentDone":50,
+                    "StartDate":"2010-02-01",
+                    "TaskType":"LowPrio",
+                    "children":[
+                        {
+                            "Duration":5,
+                            "Id":34,
+                            "Name":"任务5",
+                            "deptId": 1,
+                            "PercentDone":30,
+                            "StartDate":"2010-02-01",
+                            "leaf":true
+                        },
+                        {
+                            "Duration":5,
+                            "Id":14,
+                            "Name":"任务6",
+                            "deptId": 1,
+                            "PercentDone":30,
+                            "StartDate":"2010-02-01",
+                            "leaf":true
+                        },
+                        {
+                            "Duration":5,
+                            "Id":16,
+                            "Name":"任务7",
+                            "deptId": 1,
+                            "PercentDone":30,
+                            "StartDate":"2010-02-01",
+                            "leaf":true
+                        },
+                        {
+                            "Duration":5,
+                            "Id":15,
+                            "Name":"任务8",
+                            "deptId": 1,
+                            "PercentDone":40,
+                            "StartDate":"2010-02-10",
+                            "children":[
+                                {
+                                    "Duration":4,
+                                    "Id":20,
+                                    "Name":"Step 1",
+                                    "deptId": 1,
+                                    "PercentDone":60,
+                                    "StartDate":"2010-02-10",
+                                    "ManuallyScheduled" : false,
+                                    "leaf":true,
+                                    "Person":"2"
+                                },
+                                {
+                                    "Duration":4,
+                                    "Id":19,
+                                    "Name":"Step 2",
+                                    "deptId": 1,
+                                    "PercentDone":60,
+                                    "StartDate":"2010-02-10",
+                                    "ManuallyScheduled" : false,
+                                    "leaf":true
+                                },
+                                {
+                                    "Duration":4,
+                                    "Id":18,
+                                    "Name":"Step 3",
+                                    "deptId": 1,
+                                    "PercentDone":60,
+                                    "StartDate":"2010-02-10",
+                                    "ManuallyScheduled" : false,
+                                    "leaf":true
+                                },
+                                {
+                                    "Duration":1,
+                                    "Id":21,
+                                    "Name":"Step 4",
+                                    "deptId": 1,
+                                    "PercentDone":60,
+                                    "StartDate":"2010-02-16",
+                                    "ManuallyScheduled" : false,
+                                    "leaf":true
+                                }
+                            ],
+                            "expanded":true
+                        }
+                    ],
+                    "expanded":true
+                },
+                {
+                    "Duration":0,
+                    "Id":5,
+                    "Name":"任务验收",
+                    "deptId": 2,
+                    "PercentDone":0,
+                    "StartDate":"2010-02-18",
+                    "ManuallyScheduled" : false,
+                    "leaf":true
+                },
+                {
+                    "Duration":8,
+                    "Id":6,
+                    "Name":"长期规划三",
+                    "deptId": 2,
+                    "PercentDone":50,
+                    "StartDate":"2010-02-22",
+                    "children":[
+                        {
+                            "Duration":8,
+                            "Id":25,
+                            "Name":"Task 1",
+                            "deptId": 2,
+                            "PercentDone":10,
+                            "StartDate":"2010-02-22",
+                            "leaf":true
+                        },
+                        {
+                            "Duration":8,
+                            "Id":26,
+                            "Name":"Task 2",
+                            "deptId": 2,
+                            "PercentDone":20,
+                            "StartDate":"2010-02-22",
+                            "leaf":true
+                        },
+                        {
+                            "Duration":8,
+                            "Id":27,
+                            "Name":"Task 3",
+                            "deptId": 2,
+                            "PercentDone":20,
+                            "StartDate":"2010-02-22",
+                            "leaf":true
+                        }
+                    ],
+                    "expanded":true
+                },
+                {
+                    "Duration":0,
+                    "Id":10,
+                    "Name":"阶段验收",
+                    "deptId": 2,
+                    "PercentDone":0,
+                    "StartDate":"2010-03-17",
+                    "ManuallyScheduled" : false,
+                    "leaf":true
+                },
+                {
+                    "Duration":35,
+                    "Id":8,
+                    "Name":"长期规划四",
+                    "deptId": 2,
+                    "PercentDone":40,
+                    "StartDate":"2010-03-22",
+                    "children":[
+                        {
+                            "Duration":12,
+                            "Id":22,
+                            "Name":"任务1",
+                            "deptId": 2,
+                            "PercentDone":50,
+                            "StartDate":"2010-03-22",
+                            "leaf":true
+                        },
+                        {
+                            "Duration":11,
+                            "Id":23,
+                            "Name":"任务2",
+                            "deptId": 2,
+                            "PercentDone":20,
+                            "StartDate":"2010-04-06",
+                            "ManuallyScheduled" : false,
+                            "leaf":true
+                        },
+                        {
+                            "Duration":12,
+                            "Id":24,
+                            "deptId": 2,
+                            "Name":"任务3",
+                            "PercentDone":50,
+                            "StartDate":"2010-04-22",
+                            "leaf":true
+                        }
+                    ],
+                    "expanded":true
+                },
+                {
+                    "Duration":6,
+                    "Id":9,
+                    "Name":"",
+                    "PercentDone":0,
+                    "StartDate":"2010-05-07",
+                    "ManuallyScheduled" : false,
+                    "leaf":true
+                },
+                {
+                    "Duration":0,
+                    "Id":7,
+                    "Name":"交付",
+                    "PercentDone":40,
+                    "StartDate":"2010-05-15",
+                    "ManuallyScheduled" : false,
+                    "leaf":true
+                }
+            ],
+            //"cls":"project",
+            "expanded":true
+        }
+    ]
+    },
+    "users":{
+    "rows":[
+        {Id:1,name:"田家顺1"},
+        {Id:2,name:"田家顺2"},
+        {Id:3,name:"田家顺3"},
+        {Id:4,name:"田家顺4"},
+        {Id:5,name:"田家顺5"},
+        {Id:6,name:"田家顺6"},
+        {Id:7,name:"田家顺7"},
+        {Id:8,name:"田家顺8"},
+        {Id:9,name:"田家顺9"},
+        {Id:10,name:"田家顺10"},
+        {Id:1,name:"田家顺1"},
+        {Id:11,name:"田家顺11"},
+        {Id:12,name:"田家顺12"},
+        {Id:13,name:"田家顺13"},
+        {Id:14,name:"田家顺14"},
+        {Id:15,name:"田家顺15"},
+        {Id:16,name:"田家顺16"},
+        {Id:17,name:"田家顺17"},
+        {Id:18,name:"田家顺18"},
+        {Id:19,name:"田家顺19"},
+        {Id:20,name:"田家顺20"}
+    ]
+}
+}

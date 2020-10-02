@@ -1,0 +1,902 @@
+{
+  "success": true,
+  "assignments": {
+    "rows": [
+      {
+        "Id": 1,
+        "ResourceId": 5,
+        "TaskId": 16,
+        "Units": 180
+      },
+      {
+        "Id": 2,
+        "ResourceId": 10,
+        "TaskId": 18,
+        "Units": 1
+      },
+      {
+        "Id": 3,
+        "ResourceId": 6,
+        "TaskId": 18,
+        "Units": 80
+      },
+      {
+        "Id": 4,
+        "ResourceId": 10,
+        "TaskId": 17,
+        "Units": 3
+      },
+      {
+        "Id": 5,
+        "ResourceId": 7,
+        "TaskId": 17,
+        "Units": 3
+      },
+      {
+        "Id": 6,
+        "ResourceId": 6,
+        "TaskId": 17,
+        "Units": 90
+      },
+      {
+        "Id": 7,
+        "ResourceId": 7,
+        "TaskId": 18,
+        "Units": 3
+      },
+      {
+        "Id": 8,
+        "ResourceId": 7,
+        "TaskId": 16,
+        "Units": 3
+      },
+      {
+        "Id": 9,
+        "ResourceId": 6,
+        "TaskId": 19,
+        "Units": 80
+      },
+      {
+        "Id": 10,
+        "ResourceId": 7,
+        "TaskId": 19,
+        "Units": 3
+      },
+      {
+        "Id": 11,
+        "ResourceId": 10,
+        "TaskId": 19,
+        "Units": 3
+      },
+      {
+        "Id": 12,
+        "ResourceId": 5,
+        "TaskId": 20,
+        "Units": 150
+      },
+      {
+        "Id": 13,
+        "ResourceId": 7,
+        "TaskId": 20,
+        "Units": 1
+      },
+      {
+        "Id": 14,
+        "ResourceId": 5,
+        "TaskId": 21,
+        "Units": 90
+      },
+      {
+        "Id": 15,
+        "ResourceId": 10,
+        "TaskId": 21,
+        "Units": 1
+      },
+      {
+        "Id": 16,
+        "ResourceId": 1,
+        "TaskId": 22,
+        "Units": 60
+      },
+      {
+        "Id": 17,
+        "ResourceId": 10,
+        "TaskId": 22,
+        "Units": 2
+      },
+      {
+        "Id": 18,
+        "ResourceId": 7,
+        "TaskId": 22,
+        "Units": 2
+      },
+      {
+        "Id": 19,
+        "ResourceId": 1,
+        "TaskId": 23,
+        "Units": 30
+      },
+      {
+        "Id": 20,
+        "ResourceId": 5,
+        "TaskId": 23,
+        "Units": 80
+      },
+      {
+        "Id": 21,
+        "ResourceId": 10,
+        "TaskId": 23,
+        "Units": 2
+      }
+    ]
+  },
+  "calendars": {
+    "metaData": {
+      "projectCalendar": "default"
+    },
+    "rows": [
+      {
+        "Id": "default",
+        "Name": "Default",
+        "parentId": null,
+        "DaysPerWeek": 7,
+        "DaysPerMonth": 30,
+        "HoursPerDay": 24,
+        "WeekendFirstDay": 6,
+        "WeekendSecondDay": 0,
+        "WeekendsAreWorkDays": true,
+        "defaultAvailableAllocation": [
+          100
+        ],
+        "DefaultAvailability": [
+          "00:00-24:00"
+        ]
+      },
+      {
+        "Id": "时间资源类型A-1",
+        "Name": "时间资源类型A-1",
+        "parentId": null,
+        "DaysPerWeek": 7,
+        "DaysPerMonth": 30,
+        "HoursPerDay": 24,
+        "WeekendFirstDay": 1,
+        "WeekendSecondDay": 1,
+        "WeekendsAreWorkDays": true,
+        "defaultAvailableAllocation": [
+          100
+        ],
+        "DefaultAvailability": [
+          "00:00-24:00"
+        ],
+        "Days": {
+          "rows": [
+            {
+              "Id": 1,
+              "Date": "2020-01-06",
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                100
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "Id": "默认功率工作日历",
+        "Name": "默认功率工作日历",
+        "DaysPerMonth": 30,
+        "DaysPerWeek": 7,
+        "HoursPerDay": 16,
+        "WeekendsAreWorkdays": true,
+        "WeekendFirstDay": 6,
+        "WeekendSecondDay": 0,
+        "DefaultAvailability": [
+          "00:00-24:00"
+        ],
+        "defaultAvailableAllocation": [
+          50
+        ],
+        "leaf": true,
+        "Days": {
+          "rows": [
+            {
+              "Id": 11,
+              "Date": "2020-01-04",
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                80
+              ]
+            },
+            {
+              "Id": 12,
+              "Date": "2020-01-05",
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                80
+              ]
+            },
+            {
+              "Id": 1,
+              "Date": "2020-01-08",
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                80
+              ]
+            },
+            {
+              "Id": 2,
+              "Date": "2020-01-09",
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                70
+              ]
+            },
+            {
+              "Id": 3,
+              "Date": "2020-01-10",
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                90
+              ]
+            },
+            {
+              "Id": 4,
+              "Date": "2020-01-15",
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                90
+              ]
+            },
+            {
+              "Id": 5,
+              "Date": "2020-01-16",
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                90
+              ]
+            },
+            {
+              "Id": 6,
+              "Date": "2020-01-17",
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                90
+              ]
+            },
+            {
+              "Id": 7,
+              "Date": "2020-01-03",
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                120
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "Id": "默认功耗工作日历",
+        "Name": "默认功耗工作日历",
+        "DaysPerMonth": 30,
+        "DaysPerWeek": 7,
+        "HoursPerDay": 16,
+        "WeekendsAreWorkdays": true,
+        "WeekendFirstDay": 6,
+        "WeekendSecondDay": 0,
+        "DefaultAvailability": [
+          "00:00-24:00"
+        ],
+        "defaultAvailableAllocation": [
+          80
+        ],
+        "leaf": true,
+        "Days": {
+          "rows": [
+            {
+              "Id": 1,
+              "Date": "2020-01-04",
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                120
+              ]
+            },
+            {
+              "Id": 2,
+              "Date": "2020-01-05",
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                150
+              ]
+            },
+            {
+              "Id": 3,
+              "Date": "2020-01-06",
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                160
+              ]
+            },
+            {
+              "Id": 4,
+              "Date": "2020-01-07",
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                180
+              ]
+            },
+            {
+              "Id": 5,
+              "Date": "2020-01-08",
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                180
+              ]
+            },
+            {
+              "Id": 10,
+              "Date": "2020-01-09",
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                180
+              ]
+            },
+            {
+              "Id": 11,
+              "Date": "2020-01-10",
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                180
+              ]
+            },
+            {
+              "Id": 12,
+              "Date": "2020-01-11",
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                180
+              ]
+            },
+            {
+              "Id": 6,
+              "Date": "2020-01-12",
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                150
+              ]
+            },
+            {
+              "Id": 7,
+              "Date": "2020-01-13",
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                150
+              ]
+            },
+            {
+              "Id": 9,
+              "Date": "2020-01-14",
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                150
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "Id": "枚举互斥类型A-7",
+        "Name": "枚举互斥类型A-7",
+        "DaysPerMonth": 30,
+        "DaysPerWeek": 7,
+        "HoursPerDay": 24,
+        "WeekendsAreWorkdays": true,
+        "WeekendFirstDay": 6,
+        "WeekendSecondDay": 0,
+        "DefaultAvailability": [
+          "00:00-24:00"
+        ],
+        "defaultAvailableAllocation": [
+          [
+            2,
+            3
+          ]
+        ],
+        "leaf": true,
+        "Days": {
+          "rows": [
+            {
+              "Id": 1,
+              "Date": "2020-01-01",
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [
+                  1,
+                  2
+                ]
+              ]
+            },
+            {
+              "Id": 6,
+              "Date": "2020-01-02",
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [
+                  1,
+                  2
+                ]
+              ]
+            },
+            {
+              "Id": 2,
+              "Date": "2020-01-03",
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [
+                  2
+                ]
+              ]
+            },
+            {
+              "Id": 9,
+              "Date": "2020-01-06",
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [
+                  2
+                ]
+              ]
+            },
+            {
+              "Id": 3,
+              "Date": "2020-01-10",
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [
+                  3
+                ]
+              ]
+            },
+            {
+              "Id": 5,
+              "Date": "2020-01-13",
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [
+                  2,
+                  1
+                ]
+              ]
+            },
+            {
+              "Id": 4,
+              "Date": "2020-01-14",
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [
+                  1,
+                  2
+                ]
+              ]
+            },
+            {
+              "Id": 7,
+              "Date": "2020-01-13",
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [
+                  1
+                ]
+              ]
+            },
+            {
+              "Id": 8,
+              "Date": "2020-01-15",
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [
+                  2
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "Id": "枚举非互斥类型A-10",
+        "Name": "枚举非互斥类型A-10",
+        "DaysPerMonth": 30,
+        "DaysPerWeek": 7,
+        "HoursPerDay": 24,
+        "WeekendsAreWorkdays": true,
+        "WeekendFirstDay": 6,
+        "WeekendSecondDay": 0,
+        "DefaultAvailability": [
+          "00:00-24:00"
+        ],
+        "defaultAvailableAllocation": [
+          [
+            1
+          ]
+        ],
+        "leaf": true,
+        "Days": {
+          "rows": [
+            {
+              "Id": 1,
+              "Date": "2020-01-01",
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [
+                  2,
+                  3
+                ]
+              ]
+            },
+            {
+              "Id": 2,
+              "Date": "2020-01-02",
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [
+                  2,
+                  3
+                ]
+              ]
+            },
+            {
+              "Id": 16,
+              "Date": "2020-01-03",
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [
+                  2,
+                  1
+                ]
+              ]
+            },
+            {
+              "Id": 4,
+              "Date": "2020-01-04",
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [
+                  1,
+                  2,
+                  3
+                ]
+              ]
+            },
+            {
+              "Id": 10,
+              "Date": "2020-01-06",
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [
+                  3
+                ]
+              ]
+            },
+            {
+              "Id": 9,
+              "Date": "2020-01-08",
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [
+                  3
+                ]
+              ]
+            },
+            {
+              "Id": 3,
+              "Date": "2020-01-10",
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [
+                  3
+                ]
+              ]
+            },
+            {
+              "Id": 5,
+              "Date": "2020-01-13",
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [
+                  3
+                ]
+              ]
+            },
+            {
+              "Id": 4,
+              "Date": "2020-01-14",
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [
+                  3
+                ]
+              ]
+            },
+            {
+              "Id": 7,
+              "Date": "2020-01-13",
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [
+                  3
+                ]
+              ]
+            },
+            {
+              "Id": 8,
+              "Date": "2020-01-14",
+              "Availability": [
+                "00:00-24:00"
+              ],
+              "availableAllocation": [
+                [
+                  3
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "resources": {
+    "rows": [
+      {
+        "Id": 1,
+        "Name": "时间资源类型A-1",
+        "CalendarId": "时间资源类型A-1",
+        "resourceType": [
+          "时间资源类型A"
+        ],
+        "Type": "machine",
+        "unitsType": "1"
+      },
+      {
+        "Id": 5,
+        "CalendarId": "默认功耗工作日历",
+        "Name": "功耗资源-5",
+        "Type": "machine",
+        "resourceType": [
+          "功耗资源类型"
+        ],
+        "unitsType": "2",
+        "scaleLabelStep": 50,
+        "scaleMax": 200
+      },
+      {
+        "Id": 6,
+        "CalendarId": "默认功率工作日历",
+        "Name": "功率资源类型-6",
+        "Type": "machine",
+        "resourceType": [
+          "功率资源类型"
+        ],
+        "unitsType": "1"
+      },
+      {
+        "Id": 7,
+        "CalendarId": "枚举互斥类型A-7",
+        "Name": "枚举互斥类型A-7",
+        "resourceType": [
+          "枚举互斥类型A"
+        ],
+        "unitsValues": [
+          "1",
+          "2",
+          "3"
+        ],
+        "Type": "machine",
+        "unitsType": "3"
+      },
+      {
+        "Id": 10,
+        "Name": "枚举非互斥类型A-10",
+        "CalendarId": "枚举非互斥类型A-10",
+        "resourceType": [
+          "枚举非互斥类型A"
+        ],
+        "unitsValues": [
+          "1",
+          "2",
+          "3"
+        ],
+        "Type": "machine",
+        "unitsType": "4"
+      }
+    ]
+  },
+  "dependencies": {
+    "rows": []
+  },
+  "tasks": {
+    "rows": [
+      {
+        "Name": "XX实验",
+        "StartDate": "2020-01-01",
+        "EndDate": "2020-01-20",
+        "TaskType": "Important",
+        "Draggable": true,
+        "Resizable": true,
+        "ReadOnly": false,
+        "expanded": true,
+        "children": [
+          {
+            "Id": 16,
+            "Name": "任务16",
+            "StartDate": "2020-01-01",
+            "EndDate": "2020-01-06",
+            "TaskType": "Important",
+            "Draggable": true,
+            "Resizable": true,
+            "ReadOnly": false,
+            "leaf": true
+          },
+          {
+            "Id": 17,
+            "Name": "任务17",
+            "StartDate": "2020-01-01",
+            "EndDate": "2020-01-02",
+            "TaskType": "Important",
+            "Draggable": true,
+            "Resizable": true,
+            "ReadOnly": false,
+            "leaf": true
+          },
+          {
+            "Id": 18,
+            "Name": "任务18",
+            "StartDate": "2020-01-01",
+            "EndDate": "2020-01-03",
+            "TaskType": "Important",
+            "Draggable": true,
+            "Resizable": true,
+            "ReadOnly": false,
+            "leaf": true
+          },
+          {
+            "Id": 19,
+            "Name": "任务19",
+            "StartDate": "2020-01-01",
+            "EndDate": "2020-01-02",
+            "TaskType": "Important",
+            "Draggable": true,
+            "Resizable": true,
+            "ReadOnly": false,
+            "leaf": true
+          },
+          {
+            "Id": 20,
+            "Name": "任务20",
+            "StartDate": "2020-01-01",
+            "EndDate": "2020-01-02",
+            "TaskType": "Important",
+            "Draggable": true,
+            "Resizable": true,
+            "ReadOnly": false,
+            "leaf": true
+          },
+          {
+            "Id": 21,
+            "Name": "任务21",
+            "StartDate": "2020-01-01",
+            "EndDate": "2020-01-03",
+            "TaskType": "Important",
+            "Draggable": true,
+            "Resizable": true,
+            "ReadOnly": false,
+            "leaf": true
+          },
+          {
+            "Id": 22,
+            "Name": "任务22",
+            "StartDate": "2020-01-01",
+            "EndDate": "2020-01-04",
+            "TaskType": "Important",
+            "Draggable": true,
+            "Resizable": true,
+            "ReadOnly": false,
+            "leaf": true
+          },
+          {
+            "Id": 23,
+            "Name": "任务23",
+            "StartDate": "2020-01-01",
+            "EndDate": "2020-01-04",
+            "TaskType": "Important",
+            "Draggable": true,
+            "Resizable": true,
+            "ReadOnly": false,
+            "leaf": true
+          }
+        ]
+      }
+    ]
+  },
+  "users": {
+    "rows": []
+  }
+}
