@@ -45,3 +45,10 @@ https://github.com/ww362034710/Gannt.git
 启动后使用http://localhost:8010/demoXXX, 如http://localhost:8010/demoganntAndSchedule 见src/views/demo目录
 ```
 
+### 组合图效果:
+![image](https://github.com/ww362034710/Gannt/blob/main/public/demoimg/composed.png)
+### 皮肤定制效果：
+![image](https://github.com/ww362034710/Gannt/blob/main/public/demoimg/customtheme.png)
+### 资源冲突定制效果:
+![image](https://github.com/ww362034710/Gannt/blob/main/public/demoimg/quxiantu.png)
+
